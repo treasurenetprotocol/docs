@@ -133,6 +133,7 @@ const sidebars = {
                     ]
                 },
                 'fundamentals/transfer-tokens',
+                'fundamentals/cross-chain'
             ]
         },
         {
