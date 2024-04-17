@@ -1,81 +1,83 @@
-# How to Use Cross-Chain
+# Cross-Chain
 
-## Preparation
+## How to use Cross-Chain
 
-### Wallet Installation
+### 准备工作
 
-If you have not yet installed MetaMask, please [install](https://chromewebstore.google.com/search/metamask?hl=de&pli=1) it and follow this [guide](https://docs.treasurenet.io/zh-Hans/docs/fundamentals/wallets/metamask) to learn how to set up your wallet.
+#### 钱包安装
 
-Ensure that you are logged into MetaMask, the network is set to "Treasurenet testnet," and you have selected the correct account.
+如果您尚未安装 MetaMask，请[安装](https://chromewebstore.google.com/search/metamask?hl=de&pli=1)它并按照本[指南](https://docs.treasurenet.io/zh-Hans/docs/fundamentals/wallets/metamask)了解如何设置钱包。
 
-### Ensuring UNIT Exists on the Target Chain
+确保已经登录 MetaMask，网络是“Treasurenet testnet”，并选择正确的帐户。
 
-When you cross-chain for the first time, make sure that UNIT exists on the target chain. If it does not, please import it promptly; otherwise, you will not be able to see the UNIT balance on the target chain through MetaMask.
+#### 确保跨链目标链已存在 UNIT
 
-You can refer to [this section](https://docs.treasurenet.io/zh-Hans/docs/fundamentals/wallets/metamask#%E5%A6%82%E4%BD%95%E5%AF%BC%E5%85%A5%E4%BB%A3%E5%B8%81) for the import method.
+在您首次跨链时，请确保目标链已存在 UNIT。如不存在请及时导入，否则将无法通过 MetaMask 在目标链查看到 UNIT 余额。
 
-**When the target chain is Sepolia**: UNIT token address: 0x1c7022D9758A7F8c2044935E9664FC93E010c1Ea.
+导入方式可参考[此处](https://docs.treasurenet.io/zh-Hans/docs/fundamentals/wallets/metamask#%E5%A6%82%E4%BD%95%E5%AF%BC%E5%85%A5%E4%BB%A3%E5%B8%81)。
+
+**当目标链为 Sepolia 时**：UNIT 代币地址：0x1c7022D9758A7F8c2044935E9664FC93E010c1Ea。
 
 ![ImportToken](/imgs/docs/ImportToken.png)
 
-When the target chain is Treasurenet: The UNIT token will automatically appear in your wallet without the need for manual addition.
+当目标链为 Treasurenet 时：UNIT 代币会自动显示在钱包中，无需手动添加。
 
-Once ready, proceed to the [Cross-Chain Portal](https://services.testnet.treasurenet.io/transfer).
+准备好后，前往[跨链门户](https://services.testnet.treasurenet.io/transfer)。
 
-Let's get started!
+让我们开始吧！
 
-## Treasurenet to Ethereum
+### Treasurenet to Ethereum
 
-1. Make sure the "From" section displays "Treasurenet."
+1. 确保“ From ”部分中显示“ Treasurenet ” 。
 
 ![ChooseNetwork](/imgs/docs/ChooseNetwork.png)
 
-2. Click the "Connect MetaMask" button in the top right corner of the page to link your MetaMask wallet. After a successful connection, you can see your UNIT balance.
+2. 点击页面右上角的【ConnectMetaMask】按钮，链接您的MetaMask钱包。连接成功后，您可以看到您的 UNIT 余额。
 
 ![Connect](/imgs/docs/Connect.png)
 
 ![BalanceTN](/imgs/docs/BalanceTN.png)
 
-3. Enter the amount you want to transfer.
+3. 输入您要转账的金额。
 
 ![Amount](/imgs/docs/Amount.png)
 
-4. The transfer target address will default to the same address you have on Ethereum.
+4. 转账目标地址将默认选择您在Ethereum 上的同一个地址。
 
-5. Check the required bridge fee.
+5. 查看所需跨桥费。
 
 ![Fee](/imgs/docs/Fee.png)
 
-6. Once ready, click "Transfer." From this point on, follow the prompts from MetaMask to carry out the transaction.
+6. 准备好后，单击“转让”。从此时起，请按照MetaMask的提示进行操作，等待交易执行。
 
 ![Transfer](/imgs/docs/Transfer.png)
 
-Congratulations! You have successfully sent tokens from Treasurenet to Ethereum!
+恭喜！您已成功将代币从 Treasurenet 发送到 Ethereum ！
 
-Tip: We recommend that you first try sending a small amount before attempting a large transfer. This way, you can ensure everything proceeds as expected.
+提示：我们建议您先尝试发送少量金额，然后再尝试发送大量金额。这样您就可以确保一切按预期进行。
 
-## Ethereum to Treasurenet
+### Ethereum to Treasurenet
 
-1. Make sure the "From" section displays "Ethereum."
+1. 确保“ From ”部分中显示“ Ethereum ” 。
 
 ![ChooseNetworkFromETH](/imgs/docs/ChooseNetworkFromETH.png)
 
-2. Click the "Connect MetaMask" button in the top right corner of the page to link your MetaMask wallet. After a successful connection, you can see your UNIT balance on Ethereum.
+2. 点击页面右上角的【ConnectMetaMask】按钮，链接您的MetaMask钱包。连接成功后，您可以看到您在 Ethereum 上的 UNIT 余额。
 
 ![Connect](/imgs/docs/Connect.png)
 
 ![BalanceETH](/imgs/docs/BalanceETH.png)
 
-3. Enter the amount you want to transfer.
+3. 输入您要转账的金额。
 
 ![AmountETH](/imgs/docs/AmountETH.png)
 
-4. The transfer target address will default to the same address you have on Ethereum.
+4. 转账目标地址默认选择您在 Ethereum 上的同一个地址。
 
-5. Once ready, click "Transfer." From this point on, follow the prompts from MetaMask to carry out the transaction.
+5. 准备好后，单击“转让”。从此时起，请按照MetaMask的提示进行操作，等待交易执行。
 
 ![TransferETH](/imgs/docs/TransferETH.png)
 
-Congratulations! You have successfully sent tokens from Ethereum to Treasurenet!
+恭喜！您已成功将代币从 Ethereum 发送到 Treasurenet ！
 
-Tip: We recommend that you first try sending a small amount before attempting a large transfer. This way, you can ensure everything proceeds as expected.
+提示：我们建议您先尝试发送少量金额，然后再尝试发送大量金额。这样您就可以确保一切按预期进行。
