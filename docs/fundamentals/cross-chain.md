@@ -16,7 +16,7 @@ You can refer to [this section](https://docs.treasurenet.io/zh-Hans/docs/fundame
 
 **When the target chain is Sepolia**: UNIT token address: 0x1c7022D9758A7F8c2044935E9664FC93E010c1Ea.
 
-![ImportToken](/imgs/docs/ImportToken.png)
+![ImportToken](/img/docs/ImportToken.png)
 
 When the target chain is Treasurenet: The UNIT token will automatically appear in your wallet without the need for manual addition.
 
@@ -28,27 +28,27 @@ Let's get started!
 
 1. Make sure the "From" section displays "Treasurenet."
 
-![ChooseNetwork](/imgs/docs/ChooseNetwork.png)
+![ChooseNetwork](/img/docs/ChooseNetwork.png)
 
 2. Click the "Connect MetaMask" button in the top right corner of the page to link your MetaMask wallet. After a successful connection, you can see your UNIT balance.
 
-![Connect](/imgs/docs/Connect.png)
+![Connect](/img/docs/Connect.png)
 
-![BalanceTN](/imgs/docs/BalanceTN.png)
+![BalanceTN](/img/docs/BalanceTN.png)
 
 3. Enter the amount you want to transfer.
 
-![Amount](/imgs/docs/Amount.png)
+![Amount](/img/docs/Amount.png)
 
 4. The transfer target address will default to the same address you have on Ethereum.
 
 5. Check the required bridge fee.
 
-![Fee](/imgs/docs/Fee.png)
+![Fee](/img/docs/Fee.png)
 
 6. Once ready, click "Transfer." From this point on, follow the prompts from MetaMask to carry out the transaction.
 
-![Transfer](/imgs/docs/Transfer.png)
+![Transfer](/img/docs/Transfer.png)
 
 Congratulations! You have successfully sent tokens from Treasurenet to Ethereum!
 
@@ -58,23 +58,23 @@ Tip: We recommend that you first try sending a small amount before attempting a 
 
 1. Make sure the "From" section displays "Ethereum."
 
-![ChooseNetworkFromETH](/imgs/docs/ChooseNetworkFromETH.png)
+![ChooseNetworkFromETH](/img/docs/ChooseNetworkFromETH.png)
 
 2. Click the "Connect MetaMask" button in the top right corner of the page to link your MetaMask wallet. After a successful connection, you can see your UNIT balance on Ethereum.
 
-![Connect](/imgs/docs/Connect.png)
+![Connect](/img/docs/Connect.png)
 
-![BalanceETH](/imgs/docs/BalanceETH.png)
+![BalanceETH](/img/docs/BalanceETH.png)
 
 3. Enter the amount you want to transfer.
 
-![AmountETH](/imgs/docs/AmountETH.png)
+![AmountETH](/img/docs/AmountETH.png)
 
 4. The transfer target address will default to the same address you have on Ethereum.
 
 5. Once ready, click "Transfer." From this point on, follow the prompts from MetaMask to carry out the transaction.
 
-![TransferETH](/imgs/docs/TransferETH.png)
+![TransferETH](/img/docs/TransferETH.png)
 
 Congratulations! You have successfully sent tokens from Ethereum to Treasurenet!
 
