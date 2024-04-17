@@ -1,14 +1,15 @@
-# How to Use Cross-Chain
+# Cross-Chain
+## How to Use Cross-Chain
 
-## Preparation
+### Preparation
 
-### Wallet Installation
+#### Wallet Installation
 
 If you have not yet installed MetaMask, please [install](https://chromewebstore.google.com/search/metamask?hl=de&pli=1) it and follow this [guide](https://docs.treasurenet.io/zh-Hans/docs/fundamentals/wallets/metamask) to learn how to set up your wallet.
 
 Ensure that you are logged into MetaMask, the network is set to "Treasurenet testnet," and you have selected the correct account.
 
-### Ensuring UNIT Exists on the Target Chain
+#### Ensuring UNIT Exists on the Target Chain
 
 When you cross-chain for the first time, make sure that UNIT exists on the target chain. If it does not, please import it promptly; otherwise, you will not be able to see the UNIT balance on the target chain through MetaMask.
 
@@ -24,7 +25,7 @@ Once ready, proceed to the [Cross-Chain Portal](https://services.testnet.treasur
 
 Let's get started!
 
-## Treasurenet to Ethereum
+### Treasurenet to Ethereum
 
 1. Make sure the "From" section displays "Treasurenet."
 
@@ -54,7 +55,7 @@ Congratulations! You have successfully sent tokens from Treasurenet to Ethereum!
 
 Tip: We recommend that you first try sending a small amount before attempting a large transfer. This way, you can ensure everything proceeds as expected.
 
-## Ethereum to Treasurenet
+### Ethereum to Treasurenet
 
 1. Make sure the "From" section displays "Ethereum."
 
