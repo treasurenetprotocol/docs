@@ -1,14 +1,15 @@
-# How to use Cross-Chain
+# 跨链
+## 如何跨链
 
-## 准备工作
+### 准备工作
 
-### 钱包安装
+#### 钱包安装
 
 如果您尚未安装 MetaMask，请[安装](https://chromewebstore.google.com/search/metamask?hl=de&pli=1)它并按照本[指南](https://docs.treasurenet.io/zh-Hans/docs/fundamentals/wallets/metamask)了解如何设置钱包。
 
 确保已经登录 MetaMask，网络是“Treasurenet testnet”，并选择正确的帐户。
 
-### 确保跨链目标链已存在 UNIT
+#### 确保跨链目标链已存在 UNIT
 
 在您首次跨链时，请确保目标链已存在 UNIT。如不存在请及时导入，否则将无法通过 MetaMask 在目标链查看到 UNIT 余额。
 
@@ -24,7 +25,7 @@
 
 让我们开始吧！
 
-## Treasurenet to Ethereum
+### Treasurenet to Ethereum
 
 1. 确保“ From ”部分中显示“ Treasurenet ” 。
 
@@ -54,7 +55,7 @@
 
 提示：我们建议您先尝试发送少量金额，然后再尝试发送大量金额。这样您就可以确保一切按预期进行。
 
-## Ethereum to Treasurenet
+### Ethereum to Treasurenet
 
 1. 确保“ From ”部分中显示“ Ethereum ” 。
 
