@@ -18,7 +18,7 @@
 
 **当目标链为 Sepolia 时**：UNIT 代币地址：0x1c7022D9758A7F8c2044935E9664FC93E010c1Ea。
 
-![ImportToken](/imgs/docs/ImportToken.png)
+![ImportToken](/img/docs/ImportToken.png)
 
 当目标链为 Treasurenet 时：UNIT 代币会自动显示在钱包中，无需手动添加。
 
@@ -30,27 +30,27 @@
 
 1. 确保“ From ”部分中显示“ Treasurenet ” 。
 
-![ChooseNetwork](/imgs/docs/ChooseNetwork.png)
+![ChooseNetwork](/img/docs/ChooseNetwork.png)
 
 2. 点击页面右上角的【ConnectMetaMask】按钮，链接您的MetaMask钱包。连接成功后，您可以看到您的 UNIT 余额。
 
-![Connect](/imgs/docs/Connect.png)
+![Connect](/img/docs/Connect.png)
 
-![BalanceTN](/imgs/docs/BalanceTN.png)
+![BalanceTN](/img/docs/BalanceTN.png)
 
 3. 输入您要转账的金额。
 
-![Amount](/imgs/docs/Amount.png)
+![Amount](/img/docs/Amount.png)
 
 4. 转账目标地址将默认选择您在Ethereum 上的同一个地址。
 
 5. 查看所需跨桥费。
 
-![Fee](/imgs/docs/Fee.png)
+![Fee](/img/docs/Fee.png)
 
 6. 准备好后，单击“转让”。从此时起，请按照MetaMask的提示进行操作，等待交易执行。
 
-![Transfer](/imgs/docs/Transfer.png)
+![Transfer](/img/docs/Transfer.png)
 
 恭喜！您已成功将代币从 Treasurenet 发送到 Ethereum ！
 
@@ -60,23 +60,23 @@
 
 1. 确保“ From ”部分中显示“ Ethereum ” 。
 
-![ChooseNetworkFromETH](/imgs/docs/ChooseNetworkFromETH.png)
+![ChooseNetworkFromETH](/img/docs/ChooseNetworkFromETH.png)
 
 2. 点击页面右上角的【ConnectMetaMask】按钮，链接您的MetaMask钱包。连接成功后，您可以看到您在 Ethereum 上的 UNIT 余额。
 
-![Connect](/imgs/docs/Connect.png)
+![Connect](/img/docs/Connect.png)
 
-![BalanceETH](/imgs/docs/BalanceETH.png)
+![BalanceETH](/img/docs/BalanceETH.png)
 
 3. 输入您要转账的金额。
 
-![AmountETH](/imgs/docs/AmountETH.png)
+![AmountETH](/img/docs/AmountETH.png)
 
 4. 转账目标地址默认选择您在 Ethereum 上的同一个地址。
 
 5. 准备好后，单击“转让”。从此时起，请按照MetaMask的提示进行操作，等待交易执行。
 
-![TransferETH](/imgs/docs/TransferETH.png)
+![TransferETH](/img/docs/TransferETH.png)
 
 恭喜！您已成功将代币从 Ethereum 发送到 Treasurenet ！
 
