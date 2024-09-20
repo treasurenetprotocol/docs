@@ -2,7 +2,7 @@
 sidebar_position: 1
 ---
 
-# USTN(ERC20/Stable Token)
+# TCash(ERC20/Stable Token)
 
 合约信息
 
@@ -11,7 +11,7 @@ sidebar_position: 1
 |testnet|--|[📥](http://)|
 |mainnet|--|[📥](http://)|
 
-## 查询USTN发行量
+## 查询TCash发行量
 
 - Function: **totalSupply**
 - Type: **Query**
@@ -20,10 +20,10 @@ Result
 
 |parameter name|type|description|
 |--|--|--|
-|amount|uint256|USTN Token 总额|
+|amount|uint256|TCash Token 总额|
 
 
-## 查询账户USTN余额
+## 查询账户TCash余额
 
 - Function: **balanceOf**
 - Type: **Query**

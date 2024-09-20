@@ -4,23 +4,23 @@ sidebar_position: 4
 
 # 常见问题
 
-## 什么是 USTN？
+## 什么是 TCash？
 
-USTN Token 是一种资产，可以像其他数字货币一样在链上交易，但它们以 1:1 的比例与现实世界的货币挂钩，所以被称为稳定币。
+TCash Token 是一种资产，可以像其他数字货币一样在链上交易，但它们以 1:1 的比例与现实世界的货币挂钩，所以被称为稳定币。
 
-## 怎样获得 USTN？
+## 怎样获得 TCash？
 
-1. 使用 UNIT 在 USTN Finance 中进行兑换或贷款；
-2. 兑换是指根据 UNIT 价值换相应数量的 USTN，1 USTN=1 $，如果 USTN 的总量已经达到 50,000,000，将无法继续兑换 USTN；
-3. 贷款是指使用 UNIT 通过一定质押率贷出相应数量的 USTN，如果此时系统中没有 USTN 的存款，则无法贷出 USTN。
+1. 使用 UNIT 在 TCash Finance 中进行兑换或贷款；
+2. 兑换是指根据 UNIT 价值换相应数量的 TCash，1 TCash=1 $，如果 TCash 的总量已经达到 50,000,000，将无法继续兑换 TCash；
+3. 贷款是指使用 UNIT 通过一定质押率贷出相应数量的 TCash，如果此时系统中没有 TCash 的存款，则无法贷出 TCash。
 
-## 我可以怎样使用 USTN？
+## 我可以怎样使用 TCash？
 
-在 USTN Finance，您可以将 USTN 存款以获取利息，或者使用 USTN 兑换出 UNIT，具体的使用方式点击[此处](https://124.70.23.119:3021/docs/ustn/financial-operations)查看。
+在 TCash Finance，您可以将 TCash 存款以获取利息，或者使用 TCash 兑换出 UNIT，具体的使用方式点击[此处](https://124.70.23.119:3021/docs/TCash/financial-operations)查看。
 
-## 存入 USTN 后，什么时候开始计算利息？利率是多少？
+## 存入 TCash 后，什么时候开始计算利息？利率是多少？
 
-1. 存入 USTN 后第二天开始计算利息；
+1. 存入 TCash 后第二天开始计算利息；
 2. 利息根据贷款侧的还款多少来波动计算，也就是说，如果没有人还款，则没有存款利息，还款数量越高，则存款利息越高。
 
 ## 为什么我的贷款会被预警？

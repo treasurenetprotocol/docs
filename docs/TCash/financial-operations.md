@@ -4,31 +4,31 @@ sidebar_position: 1
 
 # Operation Guide
 
-## USTN Finance
+## TCash Finance
 
 ### Exchange
 
-#### Exchange (UNIT → USTN)
+#### Exchange (UNIT → TCash)
 
-Enter the amount of UNIT you wish to convert to USTN and click 'Submit'. The input number must be greater than 0 and less than or equal to the account balance and conversion limit, otherwise, it cannot be successfully submitted.
+Enter the amount of UNIT you wish to convert to TCash and click 'Submit'. The input number must be greater than 0 and less than or equal to the account balance and conversion limit, otherwise, it cannot be successfully submitted.
 
 - Rule Explanation:
 
-  1. Users provide UNIT to exchange for USTN, and the number of USTN that can be exchanged is calculated based on the number of UNITs, the price of UNIT, and the price of USTN;
+  1. Users provide UNIT to exchange for TCash, and the number of TCash that can be exchanged is calculated based on the number of UNITs, the price of UNIT, and the price of TCash;
 
-  2. Determine whether the number of USTN that can be exchanged is greater than the market demand for USTN:
+  2. Determine whether the number of TCash that can be exchanged is greater than the market demand for TCash:
 
-  - If it exceeds the market demand for USTN, the exchange fails;
+  - If it exceeds the market demand for TCash, the exchange fails;
 
-  - If it's less than or equal to the market demand for USTN, USTN is minted and sent to the user's account.
+  - If it's less than or equal to the market demand for TCash, TCash is minted and sent to the user's account.
 
-  3. The number of USTN that can be exchanged (rounded down) = (Number of UNITs \* Price of UNIT) / Price of USTN;
+  3. The number of TCash that can be exchanged (rounded down) = (Number of UNITs \* Price of UNIT) / Price of TCash;
 
-  4. Market demand for USTN = max [total USTN minted by the system, 50,000,000];
+  4. Market demand for TCash = max [total TCash minted by the system, 50,000,000];
 
-  5. When the total number of USTN minted by the system is greater than or equal to 50,000,000, the USTN exchange entrance will be closed.
+  5. When the total number of TCash minted by the system is greater than or equal to 50,000,000, the TCash exchange entrance will be closed.
 
-![USTN_Finance_Exchange](/img/docs/2.1USTN_Finance_Exchange.png)
+![TCash_Finance_Exchange](/img/docs/2.1TCash_Finance_Exchange.png)
 
 - Confirm in MetaMask, click 'Confirm' to continue the exchange, or 'Reject' to abort the operation.
 
@@ -38,31 +38,31 @@ Enter the amount of UNIT you wish to convert to USTN and click 'Submit'. The inp
 
 ![exchanged_successfully](/img/docs/2.1.3exchanged_successfully.png)
 
-- Click 'VIEW HISTORY' to see all previous exchange records. You can filter by Type in the upper right corner, for example, select Unit to USTN, and all UNIT to USTN information will be displayed in the list.
+- Click 'VIEW HISTORY' to see all previous exchange records. You can filter by Type in the upper right corner, for example, select Unit to TCash, and all UNIT to TCash information will be displayed in the list.
 
 ![VIEW_HISTORY](/img/docs/2.1.2VIEW_HISTORY.png)
 
-#### Repurchase (USTN → UNIT)
+#### Repurchase (TCash → UNIT)
 
 Enter the number of UNITs you want to repurchase and click 'Submit'. The input number must be greater than 0 and less than or equal to the account balance, otherwise, it cannot be successfully submitted.
 
 - Rule Explanation:
 
-  1. Users provide USTN to repurchase UNITs, and the number of UNITs that can be repurchased is calculated based on the amount of USTN, the price of USTN, and the price of UNIT;
+  1. Users provide TCash to repurchase UNITs, and the number of UNITs that can be repurchased is calculated based on the amount of TCash, the price of TCash, and the price of UNIT;
 
   2. Determine whether the number of UNITs repurchased by the user is greater than the system repurchase limit:
 
-  - If it's less than or equal to the system repurchase limit, the USTN provided by the user is destroyed, and the repurchased UNIT is returned to the user;
+  - If it's less than or equal to the system repurchase limit, the TCash provided by the user is destroyed, and the repurchased UNIT is returned to the user;
 
-  - If it exceeds the system repurchase limit, the UNIT repurchase fails, and the USTN provided by the user is returned.
+  - If it exceeds the system repurchase limit, the UNIT repurchase fails, and the TCash provided by the user is returned.
 
-  3. System repurchase limit for UNITs = (Total USTN of the system - Market demand for USTN) \* USTN price / UNIT price;
+  3. System repurchase limit for UNITs = (Total TCash of the system - Market demand for TCash) \* TCash price / UNIT price;
 
   4. The conditions for opening and closing the UNIT repurchase function are:
 
-  - When the total USTN of the system > Market demand for USTN, open Unit repurchase;
+  - When the total TCash of the system > Market demand for TCash, open Unit repurchase;
 
-  - When the total USTN of the system <= Market demand for USTN
+  - When the total TCash of the system <= Market demand for TCash
 
 ![Repurchase](/img/docs/Repurchase.png)
 
@@ -76,9 +76,9 @@ Enter the number of UNITs you want to repurchase and click 'Submit'. The input n
 
 ### 2. Deposit
 
-#### Deposit USTN
+#### Deposit TCash
 
-- Enter the amount of USTN you wish to deposit and click 'Submit' to submit.
+- Enter the amount of TCash you wish to deposit and click 'Submit' to submit.
 
 :::caution
 The input number must be greater than 0 and less than or equal to the account balance, otherwise, it cannot be successfully submitted.
@@ -90,9 +90,9 @@ The input number must be greater than 0 and less than or equal to the account ba
 
 ![Deposit_HISTORY](/img/docs/2.2.2Deposit_HISTORY.png)
 
-#### Withdraw USTN
+#### Withdraw TCash
 
-- Enter the amount of USTN you wish to withdraw and click 'Submit' to submit.
+- Enter the amount of TCash you wish to withdraw and click 'Submit' to submit.
 
 :::caution
 Note: The input number must be greater than 0 and less than or equal to the deposited amount, otherwise, it cannot be successfully submitted.
@@ -146,7 +146,7 @@ If the repayment is successful, it will display 'Repaid successfully!'; if all r
 
 #### Add collateral
 
-- When the value of the collateral for a loan / the value of the lent USTN is less than or equal to the warning line, the system will issue a warning to the user, suggesting to supplement the collateral.
+- When the value of the collateral for a loan / the value of the lent TCash is less than or equal to the warning line, the system will issue a warning to the user, suggesting to supplement the collateral.
 
 ![Add collateral](/img/docs/2.3.1.3Add_collateral.png)
 
@@ -154,7 +154,7 @@ If the repayment is successful, it will display 'Repaid successfully!'; if all r
 
 ![Add](/img/docs/2.3.1.3Add.png)
 
-- After clicking 'Submit', if the value of the added collateral / the value of the lent USTN is greater than the warning line, there will be no more warnings. The system will prompt 'Add collateral successfully! The alert status has been lifted.'.
+- After clicking 'Submit', if the value of the added collateral / the value of the lent TCash is greater than the warning line, there will be no more warnings. The system will prompt 'Add collateral successfully! The alert status has been lifted.'.
 
 ![Add_collateral_successfully](/img/docs/2.3.1.4Add_collateral_successfully.png)
 
@@ -172,9 +172,9 @@ If the repayment is successful, it will display 'Repaid successfully!'; if all r
 
 ![bidding_history](/img/docs/2.4.2bidding_history.png)
 
-- If the user is not currently the highest bidder for the item, click 'Extract USTN' to withdraw the USTN you have invested at any time.
+- If the user is not currently the highest bidder for the item, click 'Extract TCash' to withdraw the TCash you have invested at any time.
 
-![Extract_USTN](/img/docs/2.4.2.2Extract_USTN.png)
+![Extract_TCash](/img/docs/2.4.2.2Extract_TCash.png)
 
 - If the current user successfully wins the bid, click 'Extract auction' to transfer the item to your personal account.
 
@@ -190,11 +190,11 @@ If the repayment is successful, it will display 'Repaid successfully!'; if all r
 
 #### My Assets
 
-- Click on Profile to enter the personal center page. This page displays the statistics of key data such as the user's USTN balance, deposit balance, and outstanding repayments. Here, My Assets = USTN Balance + USTN Deposit Balance; USTN Balance shows the current account's USTN balance.
+- Click on Profile to enter the personal center page. This page displays the statistics of key data such as the user's TCash balance, deposit balance, and outstanding repayments. Here, My Assets = TCash Balance + TCash Deposit Balance; TCash Balance shows the current account's TCash balance.
 
 ![Profile](/img/docs/2.5Profile.png)
 
-- Clicking on the buttons and 'Detail' in the three panels of My Assets and the 'Extract USTN' and 'Extract auction' buttons in the My Auction panel will take you to the Exchange, Deposit, Loan page; click on the 'My Bidding History' interface.
+- Clicking on the buttons and 'Detail' in the three panels of My Assets and the 'Extract TCash' and 'Extract auction' buttons in the My Auction panel will take you to the Exchange, Deposit, Loan page; click on the 'My Bidding History' interface.
 
 :::info
 🚧 Documentation is in progress.
