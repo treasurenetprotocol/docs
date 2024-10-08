@@ -108,7 +108,7 @@ const sidebars = {
                         title: 'dApps Under Development',
                     },
                     items: [
-                        'about/dapps_under_development/ustn',
+                        'about/dapps_under_development/TCash',
                         'about/dapps_under_development/tn_dex',
                         'about/dapps_under_development/use_cases',
                     ]
@@ -138,15 +138,15 @@ const sidebars = {
         },
         {
             type: 'category',
-            label: 'USTN Finance Platform',
+            label: 'TCash Finance Platform',
             link: {
                 type: 'generated-index',
-                title: 'USTN Finance Platform',
+                title: 'TCash Finance Platform',
             },
             items: [
-                'ustn/overview',
-                'ustn/financial-operations',
-                'ustn/qa'
+                'TCash/overview',
+                'TCash/financial-operations',
+                'TCash/qa'
             ]
         },
         {
@@ -460,7 +460,7 @@ const sidebars = {
             label: 'Official Contracts',
             items: [
                 'api/officialContracts/tat',
-                'api/officialContracts/ustn',
+                'api/officialContracts/TCash',
                 'api/officialContracts/treasure-data',
                 'api/officialContracts/bid',
             ]

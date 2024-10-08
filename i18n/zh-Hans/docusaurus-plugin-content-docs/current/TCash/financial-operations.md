@@ -4,30 +4,30 @@ sidebar_position: 1
 
 # 操作指南
 
-## USTN 金融
+## TCash 金融
 
 ### 兑换
 
-#### Exchange (UNIT → USTN)
-输入想要兑换成USTN的UNIT数量，点击'Submit'提交。输入的数字要大于0且小于等于账户余额和兑换上限，否则无法成功提交。
+#### Exchange (UNIT → TCash)
+输入想要兑换成TCash的UNIT数量，点击'Submit'提交。输入的数字要大于0且小于等于账户余额和兑换上限，否则无法成功提交。
 
 规则说明：
 
-1.用户提供UNIT兑换出USTN，根据UNIT数量、UNIT单价、USTN单价计算可兑换的USTN数目；
+1.用户提供UNIT兑换出TCash，根据UNIT数量、UNIT单价、TCash单价计算可兑换的TCash数目；
 
-2.判断可兑换USTN数目是否大于市场所需USTN上限：
+2.判断可兑换TCash数目是否大于市场所需TCash上限：
 
-  - 如果>市场所需USTN上限，兑换失败；
+  - 如果>市场所需TCash上限，兑换失败；
   
-  - <= 市场所需USTN上限，铸造USTN发送至用户账户。
+  - <= 市场所需TCash上限，铸造TCash发送至用户账户。
   
-3.可兑换USTN数目（结果向下取整） =( UNIT数目*UNIT单价) / USTN单价 ；
+3.可兑换TCash数目（结果向下取整） =( UNIT数目*UNIT单价) / TCash单价 ；
 
-4.市场所需USTN上限 = max[ 系统已铸造USTN总量，5000 0000 ]；
+4.市场所需TCash上限 = max[ 系统已铸造TCash总量，5000 0000 ]；
 
-5.系统已铸造USTN总数 >= 5000 0000时，兑换USTN入口将被关闭。
+5.系统已铸造TCash总数 >= 5000 0000时，兑换TCash入口将被关闭。
 
-![USTN_Finance_Exchange](/img/docs/2.1USTN_Finance_Exchange.png)
+![TCash_Finance_Exchange](/img/docs/2.1TCash_Finance_Exchange.png)
 
 在MetaMask进行确认，继续兑换则点击'Confirm'，中止操作则点击'Reject'。
 
@@ -37,31 +37,31 @@ sidebar_position: 1
 
 ![exchanged_successfully](/img/docs/2.1.3exchanged_successfully.png)
 
-点击'VIEW HISTORY'，出现之前所有的兑换记录。通过右上角的Type可进行筛选，如选择 UNIT to USTN，列表中展示所有 UNIT to USTN的信息。
+点击'VIEW HISTORY'，出现之前所有的兑换记录。通过右上角的Type可进行筛选，如选择 UNIT to TCash，列表中展示所有 UNIT to TCash的信息。
 
 ![VIEW_HISTORY](/img/docs/2.1.2VIEW_HISTORY.png)
 
-#### Repurchase (USTN → UNIT)
+#### Repurchase (TCash → UNIT)
 
 输入想要回购的UNIT数量，点击'Submit'提交。输入的数字要大于0且小于等于账户余额，否则无法成功提交。
 
 规则说明：
 
-1.用户向系统提供USTN回购UNIT，根据USTN数量、USTN单价、UNIT单价计算用户可回购的UNIT数量；
+1.用户向系统提供TCash回购UNIT，根据TCash数量、TCash单价、UNIT单价计算用户可回购的UNIT数量；
 
 2.判断用户回购UNIT数目是否 > 系统可回购UNIT上限：
 
-  - <= 系统可回购上限，销毁用户提供的USTN，将回购UNIT返还给用户；
+  - <= 系统可回购上限，销毁用户提供的TCash，将回购UNIT返还给用户；
   
-  - 如果>系统可回购上限，UNIT回购失败，返还用户提供的USTN。
+  - 如果>系统可回购上限，UNIT回购失败，返还用户提供的TCash。
   
-3.系统可回购UNIT上限 = （系统USTN总量 - 市场所需USTN上限）*USTN单价/ UNIT单价；
+3.系统可回购UNIT上限 = （系统TCash总量 - 市场所需TCash上限）*TCash单价/ UNIT单价；
 
 4.UNIT回购功能开放、关闭条件：
 
-  - 系统USTN总量 > 市场所需USTN上限，开放UNIT回购
+  - 系统TCash总量 > 市场所需TCash上限，开放UNIT回购
   
-  - 系统USTN总量 <= 市场所需USTN上限，关闭UNIT回购
+  - 系统TCash总量 <= 市场所需TCash上限，关闭UNIT回购
   
 ![Repurchase](/img/docs/Repurchase.png)
 
@@ -76,9 +76,9 @@ sidebar_position: 1
 
 
 ### 2. Deposit
-#### Deposit USTN
+#### Deposit TCash
 
-输入想要存入的USTN数量，点击'Submit'进行提交。
+输入想要存入的TCash数量，点击'Submit'进行提交。
 
 注意：输入的数字要大于0且小于等于账户余额，否则无法成功提交。
 
@@ -89,9 +89,9 @@ sidebar_position: 1
 
 ![Deposit_HISTORY](/img/docs/2.2.2Deposit_HISTORY.png)
 
-#### Withdraw USTN
+#### Withdraw TCash
 
-输入想要取出的USTN数量，点击'Submit'进行提交。
+输入想要取出的TCash数量，点击'Submit'进行提交。
 
 注意：输入的数字要大于0且小于等于存入的数量，否则无法成功提交。
 
@@ -135,7 +135,7 @@ sidebar_position: 1
 
 #### Add collateral
 
-当某笔贷款的抵押品的价值/贷出USTN的价值<=预警线时，系统会对用户发出预警，提示应当补充抵押品。
+当某笔贷款的抵押品的价值/贷出TCash的价值<=预警线时，系统会对用户发出预警，提示应当补充抵押品。
 
 ![Add collateral](/img/docs/2.3.1.3Add_collateral.png)
 
@@ -143,7 +143,7 @@ sidebar_position: 1
 
 ![Add](/img/docs/2.3.1.3Add.png)
 
-点击‘Submit’后，如果增加后的抵押品价值/贷出USTN价值>预警线，则不再预警。系统会提示‘Add collateral successfully! The alert status has been lifted.’。
+点击‘Submit’后，如果增加后的抵押品价值/贷出TCash价值>预警线，则不再预警。系统会提示‘Add collateral successfully! The alert status has been lifted.’。
 
 ![Add_collateral_successfully](/img/docs/2.3.1.4Add_collateral_successfully.png)
 
@@ -161,9 +161,9 @@ Auction界面可以可查询到所有正在拍卖的标的。
 
 ![bidding_history](/img/docs/2.4.2bidding_history.png)
 
-如果用户不是当前标的的最高出价人，点击‘Extract USTN’，可随时将自己投入的USTN提取出来。
+如果用户不是当前标的的最高出价人，点击‘Extract TCash’，可随时将自己投入的TCash提取出来。
 
-![Extract_USTN](/img/docs/2.4.2.2Extract_USTN.png)
+![Extract_TCash](/img/docs/2.4.2.2Extract_TCash.png)
 
 如果当前用户成功中标，点击‘Extract auction’，可将标的物提取至个人账户。
 
@@ -180,13 +180,13 @@ Auction界面可以可查询到所有正在拍卖的标的。
 ### 5. Profile
 #### My Assets
 
-点击Profile可以进入个人中心页面，此页面展示用户USTN余额、存款余额、待还款额等关键数据的统计值。
+点击Profile可以进入个人中心页面，此页面展示用户TCash余额、存款余额、待还款额等关键数据的统计值。
 
-其中，我的资产=USTN余额Balance+USTN存款余额Deposits；USTN 余额Balance，展示当前账户的USTN余额。
+其中，我的资产=TCash余额Balance+TCash存款余额Deposits；TCash 余额Balance，展示当前账户的TCash余额。
 
 ![Profile](/img/docs/2.5Profile.png)
 
-点击My Assets中的三个板块中的按钮和'Detail'分别可以进入Exchange、Deposit、Loan页面；点击My auction板块的'Extract USTN'按钮和'Extract auction'按钮可以进入'My Bidding History'界面。
+点击My Assets中的三个板块中的按钮和'Detail'分别可以进入Exchange、Deposit、Loan页面；点击My auction板块的'Extract TCash'按钮和'Extract auction'按钮可以进入'My Bidding History'界面。
 
 :::info
 🚧 Documentation is in progress.

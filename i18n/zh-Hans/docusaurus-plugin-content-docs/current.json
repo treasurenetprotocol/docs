@@ -83,13 +83,13 @@
     "message": "钱包",
     "description": "The label for category Digital Wallets in sidebar docs"
   },
-  "sidebar.docs.category.USTN Finance Platform": {
-    "message": "USTN金融平台",
-    "description": "The label for category USTN Finance Platform in sidebar docs"
+  "sidebar.docs.category.TCash Finance Platform": {
+    "message": "TCash金融平台",
+    "description": "The label for category TCash Finance Platform in sidebar docs"
   },
-  "sidebar.docs.category.USTN Finance Platform.link.generated-index.title": {
-    "message": "USTN金融平台",
-    "description": "The generated-index page title for category USTN Finance Platform in sidebar docs"
+  "sidebar.docs.category.TCash Finance Platform.link.generated-index.title": {
+    "message": "TCash金融平台",
+    "description": "The generated-index page title for category TCash Finance Platform in sidebar docs"
   },
   "sidebar.docs.category.Governance": {
     "message": "社区治理",

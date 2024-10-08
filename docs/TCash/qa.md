@@ -4,23 +4,23 @@ sidebar_position: 4
 
 # FAQ
 
-## What is USTN?
+## What is TCash?
 
-The USTN Token is an asset that can be traded on-chain like other cryptocurrencies, but it's pegged 1:1 with real-world currency, so it's called a stablecoin.
+The TCash Token is an asset that can be traded on-chain like other cryptocurrencies, but it's pegged 1:1 with real-world currency, so it's called a stablecoin.
 
-## How to get USTN?
+## How to get TCash?
 
-1. You can obtain USTN by exchanging or loaning with UNIT in USTN Finance.
-2. Exchanging refers to getting a certain amount of USTN according to the value of UNIT. 1 USTN=1 $, if the total amount of USTN has reached 50,000,000, it won't be possible to continue exchanging for USTN.
-3. Loaning refers to loaning a certain amount of USTN by using UNIT through a certain collateral rate. If there are no USTN deposits in the system at this time, USTN cannot be loaned out.
+1. You can obtain TCash by exchanging or loaning with UNIT in TCash Finance.
+2. Exchanging refers to getting a certain amount of TCash according to the value of UNIT. 1 TCash=1 $, if the total amount of TCash has reached 50,000,000, it won't be possible to continue exchanging for TCash.
+3. Loaning refers to loaning a certain amount of TCash by using UNIT through a certain collateral rate. If there are no TCash deposits in the system at this time, TCash cannot be loaned out.
 
-## How can I use USTN?
+## How can I use TCash?
 
-In USTN Finance, you can deposit USTN to earn interest, or use USTN to exchange for UNIT. For specific usage, click [here](https://124.70.23.119:3021/en/docs/ustn/financial-operations/) to view.
+In TCash Finance, you can deposit TCash to earn interest, or use TCash to exchange for UNIT. For specific usage, click [here](https://124.70.23.119:3021/en/docs/TCash/financial-operations/) to view.
 
-## After depositing USTN, when will the interest start to be calculated? What is the interest rate?
+## After depositing TCash, when will the interest start to be calculated? What is the interest rate?
 
-1. Interest will start to be calculated the day after USTN is deposited.
+1. Interest will start to be calculated the day after TCash is deposited.
 2. The interest rate fluctuates based on the amount of repayment on the loan side. That is, if no one repays, there will be no deposit interest. The higher the repayment amount, the higher the deposit interest.
 
 ## Why would my loan be warned?

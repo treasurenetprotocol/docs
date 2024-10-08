@@ -6,7 +6,7 @@
 
 ## 查看余额
 
-您可以在 Treasurenet 上查看所有加密资产的余额，包括原生的 UNIT、USTN 以及 TAT，和在 Treasurenet 区块链网络上创建的资产。
+您可以在 Treasurenet 上查看所有加密资产的余额，包括原生的 UNIT、TCash 以及 TAT，和在 Treasurenet 区块链网络上创建的资产。
 
 资产的余额由 token 数量和等值的 USD 来进行描述。
 
