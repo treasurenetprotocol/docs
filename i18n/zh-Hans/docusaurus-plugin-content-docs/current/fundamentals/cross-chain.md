@@ -49,7 +49,7 @@
 
 6. 准备好后，单击“转让”。从此时起，请按照MetaMask的提示进行操作，等待交易执行。
 
-![Transfer](/img/docs/Transfer.png)
+![Transfer](/img/docs/BridgeTN-ETH.png)
 
 恭喜！您已成功将代币从 Treasurenet 发送到 Ethereum ！
 
@@ -75,7 +75,7 @@
 
 5. 准备好后，单击“转让”。从此时起，请按照MetaMask的提示进行操作，等待交易执行。
 
-![TransferETH](/img/docs/TransferETH.png)
+![TransferETH](/img/docs/BridgeETH-TN.png)
 
 恭喜！您已成功将代币从 Ethereum 发送到 Treasurenet ！
 
