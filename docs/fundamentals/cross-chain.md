@@ -1,5 +1,5 @@
 # Cross-Chain
-## How to Use Cross-Chain
+## How to Use TN Bridge
 
 ### Preparation
 
@@ -49,7 +49,7 @@ Let's get started!
 
 6. Once ready, click "Transfer." From this point on, follow the prompts from MetaMask to carry out the transaction.
 
-![Transfer](/img/docs/Transfer.png)
+![Transfer](/img/docs/BridgeTN-ETH.png)
 
 Congratulations! You have successfully sent tokens from Treasurenet to Ethereum!
 
@@ -75,7 +75,7 @@ Tip: We recommend that you first try sending a small amount before attempting a 
 
 5. Once ready, click "Transfer." From this point on, follow the prompts from MetaMask to carry out the transaction.
 
-![TransferETH](/img/docs/TransferETH.png)
+![TransferETH](/img/docs/BridgeETH-TN.png)
 
 Congratulations! You have successfully sent tokens from Ethereum to Treasurenet!
 
