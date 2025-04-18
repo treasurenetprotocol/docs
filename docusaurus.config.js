@@ -21,14 +21,14 @@ const config = {
 
     i18n: {
         defaultLocale: 'en',
-        locales: ['en', 'zh-Hans'],
+        locales: ['en'],
     },
     themes:[
         [
             require.resolve("@easyops-cn/docusaurus-search-local"),
             ({
                 indexPages: true,
-                language: ['en', 'zh'],
+                language: ['en'],
                 hashed: true,
 
             }),
@@ -56,8 +56,6 @@ const config = {
                     editUrl: ({locale, docPath}) => {
                         if (locale === 'en') {
                             return `https://github.com/treasurenetprotocol/docs/blob/feature/1.0.3/docs/${docPath}`
-                        } else {
-                            return `https://github.com/treasurenetprotocol/docs/blob/feature/1.0.3/i18n/${locale}/docusaurus-plugin-content-docs/current/${docPath}`
                         }
                     },
                     showLastUpdateAuthor: true,
@@ -152,10 +150,6 @@ const config = {
                     {
                         href: 'https://github.com/treasurenetprotocol',
                         label: 'GitHub',
-                        position: 'right',
-                    },
-                    {
-                        type: 'localeDropdown',
                         position: 'right',
                     },
                 ],
