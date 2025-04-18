@@ -109,7 +109,6 @@ const sidebars = {
                     },
                     items: [
                         'about/dapps_under_development/TCash',
-                        'about/dapps_under_development/tn_dex',
                         'about/dapps_under_development/use_cases',
                     ]
                 },
@@ -129,37 +128,9 @@ const sidebars = {
                     items: [
                         'fundamentals/wallets/metamask',
                         'fundamentals/wallets/coinbase',
-                        'fundamentals/wallets/keplr',
                     ]
                 },
                 'fundamentals/transfer-tokens',
-                'fundamentals/cross-chain'
-            ]
-        },
-        {
-            type: 'category',
-            label: 'TCash Finance Platform',
-            link: {
-                type: 'generated-index',
-                title: 'TCash Finance Platform',
-            },
-            items: [
-                'TCash/overview',
-                'TCash/financial-operations',
-                'TCash/qa'
-            ]
-        },
-        {
-            type: 'category',
-            label: 'Governance',
-            link: {
-                type: 'generated-index',
-                title: 'Governance',
-            },
-            items: [
-                'governance/overview',
-                'governance/dao-website',
-                'governance/community-pool',
             ]
         },
         {
@@ -317,16 +288,6 @@ const sidebars = {
                 'developers/clients',
                 {
                     type: 'category',
-                    label: 'Guides',
-                    items: [
-                        'developers/guides/wallet-integration',
-                        'developers/guides/erc20',
-                        'developers/guides/trace-transactions',
-                        'developers/guides/query-balances'
-                    ]
-                },
-                {
-                    type: 'category',
                     label: 'Localnet',
                     items: [
                         'developers/localnet/single-node',
@@ -339,15 +300,6 @@ const sidebars = {
                     label: 'Testnet',
                     items: [
                         'developers/testnet/faucet',
-                    ]
-                },
-                {
-                    type: 'category',
-                    label: 'Treasurenet EVM Tooling',
-                    items: [
-                        'developers/ethereum-tooling/remix',
-                        'developers/ethereum-tooling/hardhat',
-                        'developers/ethereum-tooling/truffle',
                     ]
                 },
                 {
@@ -399,50 +351,6 @@ const sidebars = {
                     href: 'https://www.google.com'
                 },
                 /*'developers/faq'*/
-            ]
-        },
-        {
-            type: 'category',
-            label: 'For Protocol Devs',
-            link: {
-                type: 'generated-index',
-                title: 'For Protocol Devs',
-            },
-            items: [
-                'protocolDevelopers/overview',
-                {
-                    type: 'category',
-                    label: 'Basic Concepts',
-                    items: [
-                        'protocolDevelopers/concepts/accounts',
-                        'protocolDevelopers/concepts/transactions',
-                        'protocolDevelopers/concepts/encoding',
-                        'protocolDevelopers/concepts/gas-and-fees',
-                        'protocolDevelopers/concepts/multisig',
-                    ]
-                },
-                {
-                    type: 'category',
-                    label: 'Modules',
-                    items: [
-                        'protocolDevelopers/modules/overview',
-                        'protocolDevelopers/modules/auth',
-                        'protocolDevelopers/modules/bank',
-                        'protocolDevelopers/modules/mint',
-                        'protocolDevelopers/modules/staking',
-                        'protocolDevelopers/modules/slashing',
-                        'protocolDevelopers/modules/gov',
-                        'protocolDevelopers/modules/distribution'
-
-                    ]
-                },
-                {
-                    type: 'category',
-                    label: 'Genesis File',
-                    items: [
-                        'protocolDevelopers/genesis/genesis',
-                    ]
-                },
             ]
         },
         {
