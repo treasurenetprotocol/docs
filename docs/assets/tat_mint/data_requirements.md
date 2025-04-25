@@ -20,4 +20,3 @@ Whitelisted price source is to be from a multitude of observable prices and will
 Example whitelist sources:
 
 - https://markets.businessinsider.com/commodities/natural-gas-price
-- https://oilprice.com/commodity-price-charts?page=chart&sym=CLY00
