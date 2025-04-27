@@ -10,7 +10,6 @@ Treasurenet creates an audited, transparent, and secure way of interacting with 
 
 The core objective is to achieve complete integration between the digital and physical economies by introducing a hybrid medium of stored value called the **$UNIT** token. Through this, we aim to establish a unified WEB3 financial system that seamlessly combines the strengths of both digital and physical assets.
 
-
 ## Features
 
 &rarr; **Consensus built on Real-World Assets (RWA):** First Layer 1 blockchain built on the decentralized verification of RWA productivity, where the L1 network generates UNIT token rewards based on such RWA.
