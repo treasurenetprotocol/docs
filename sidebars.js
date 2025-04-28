@@ -14,6 +14,7 @@
 /** @type {import('@docusaurus/plugin-content-docs').SidebarsConfig} */
 const sidebars = {
     docs: [
+        'Litepaper/Litepaper',
         {
             type: 'category',
             label: 'About Treasurenet',
