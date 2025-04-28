@@ -8,7 +8,7 @@ The Treasurenet test network faucet provide participants with a small amount of 
 
 ## Daily rewards
 
-- To access UNIT tokens in MetaMask, you must connect to the Treasurenet testnet. By entering your Treasurenet account, you can receive a daily login bonus as an incentive. This bonus allows you to claim additional UNIT tokens, enhancing your participation in the Treasurenet testnet environment. Make sure to connect to the testnet and provide your account details to access the login bonus feature.
+- To access UNIT tokens in MetaMask, you must connect to [the Treasurenet testnet](https://faucet.testnet.treasurenet.io). By entering your Treasurenet account, you can receive a daily login bonus as an incentive. This bonus allows you to claim additional UNIT tokens, enhancing your participation in the Treasurenet testnet environment. Make sure to connect to the testnet and provide your account details to access the login bonus feature.
 
 ![水龙头 输入链接](/img/docs/faucet1.png)
 
