@@ -2,8 +2,6 @@
 
 Once you are linked to the Treasurenet Blockchain Network, you can start using your wallet to transfer Tokens peer-to-peer without the involvement of a bank or other intermediaries. This gives you full ownership of your assets and complete autonomy over your passwords.
 
-Once you are linked to the Treasurenet Blockchain Network, you can start using your wallet to transfer Tokens peer-to-peer without the involvement of a bank or other intermediaries. This gives you full ownership of your assets and complete autonomy over your passwords.
-
 ## View Balances
 
 You can view the balance of all encrypted assets on Treasurenet through the wallet(How to connect？[Metamask,](https://124.70.23.119:3021/docs/fundamentals/wallets/metamask#%E5%A6%82%E4%BD%95%E8%BF%9E%E6%8E%A5-metamask) [Coinbase）](https://124.70.23.119:3021/docs/fundamentals/wallets/coinbase#%E5%A6%82%E4%BD%95%E8%BF%9E%E6%8E%A5-coinbase-%E9%92%B1%E5%8C%85), including native UNIT, TCash and TAT, and assets created on the Treasurenet Blockchain Network.
