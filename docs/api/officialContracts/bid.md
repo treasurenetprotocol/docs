@@ -12,9 +12,9 @@ sidebar_position: 1
 |mainnet|--|[📥](http://)|
 
 
-## stake TAT token
+## stake `$REP` token
 
-- Function: **bidTAT** 
+- Function: **bidREP** 
 - Type: **Transaction**
 
     质押Bonus Stake的合约函数，参数是stake的Tat token数量。
@@ -39,7 +39,7 @@ sidebar_position: 1
 
 - Event: bidBurn
 
-    监听此事件将可以获得所有人通过"bidTAT"函数正确质押的数据。
+    监听此事件将可以获得所有人通过"bidREP"函数正确质押的数据。
     
     Parameters
     

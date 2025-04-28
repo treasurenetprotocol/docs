@@ -2,7 +2,7 @@
 sidebar_position: 2
 ---
 
-# TAT(ERC20)
+# `$REP`(ERC20)
 
 合约信息
 
@@ -11,7 +11,7 @@ sidebar_position: 2
 |testnet|--|[📥](http://)|
 |mainnet|--|[📥](http://)|
 
-## 查询TAT发行量
+## 查询`$REP`发行量
 
 - Function: **totalSupply**
 - Type: **Query**
@@ -20,10 +20,10 @@ Result
 
 |parameter name|type|description|
 |--|--|--|
-|amount|uint256|TAT Token 总额|
+|amount|uint256|`$REP` Token 总额|
 
 
-## 查询账户TAT余额
+## 查询账户`$REP`余额
 
 - Function: **balanceOf**
 - Type: **Query**
