@@ -4,6 +4,10 @@ sidebar_position: 5
 
 # Join test-net
 
+:::caution
+This document is currently in progress or contains incomplete sections. Please verify the accuracy of any information before use. For questions or concerns, please contact `contact@treasurenet.org`.
+:::
+
 This guide requires that you have already submitted and had merged a gentx from [these instructions](https://docs.treasurenet.io/docs/validators/create-your-gentx)
 
 ### Choose a test network

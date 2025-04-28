@@ -4,6 +4,10 @@ sidebar_position: 6
 
 # Join main-net
 
+:::caution
+This document is currently in progress or contains incomplete sections. Please verify the accuracy of any information before use. For questions or concerns, please contact `contact@treasurenet.org`.
+:::
+
 :::info
 Development is in progress. Whitelisted Mainnet Validator nodes only at the moment.
 :::
