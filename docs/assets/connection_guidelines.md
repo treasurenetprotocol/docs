@@ -17,4 +17,4 @@ Producers log into the Production Portal, first go through KYB (business verific
 Initial review criteria is set according to the workflow of each specific asset class.
 Treasurenet Foundation Manager will review the submissions according to applicable asset workflows.
 
-Periodic review is usually every 1 year. If the periodic review is not completed, the affected assets will not be able to mint $TAT. Producers will receive a prompt in the Production Portal when applicable to submit updated documentations.
+Periodic review is usually every 1 year. If the periodic review is not completed, the affected assets will not be able to mint `$REP`. Producers will receive a prompt in the Production Portal when applicable to submit updated documentations.

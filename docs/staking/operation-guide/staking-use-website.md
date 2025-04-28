@@ -4,7 +4,7 @@ sidebar_position: 3
 
 # Staking
 
-This is an operation that can only help you become a delegator quickly, but you need to make sure whether you have UNIT and TAT tokens on the Treasurenet mainnet.
+This is an operation that can only help you become a delegator quickly, but you need to make sure whether you have `$UNIT` and `$REP` tokens on the Treasurenet mainnet.
 
 ### Access the dashboard
 

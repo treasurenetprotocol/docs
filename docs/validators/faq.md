@@ -10,7 +10,7 @@ sidebar_position: 7
 
 TreasuerNet [based on Tendermint](https://docs.tendermint.com/main/introduction/what-is-tendermint.html) relies on a set of validators responsible for committing new blocks in the blockchain. These validators participate in the consensus protocol by broadcasting encrypted signatures, signed with the private key of each validator, in the form of votes.
 
-Validator candidates can stake their own UNIT or TAT and allow token holders to "delegate" or stake their UNIT to them. Currently, Treasurenet only allows 100 validators to participate in consensus, but the number of validators can be increased over time through governance proposals. Validators are determined by the total number of UNIT tokens delegated to them, along with TAT ([refer to the rules for selecting active validators](./faq.md)). The top 100 validator candidates with the highest voting power are the current active validators participating in consensus to generate new blocks.
+Validator candidates can stake their own UNIT or `$REP` and allow token holders to "delegate" or stake their UNIT to them. Currently, Treasurenet only allows 100 validators to participate in consensus, but the number of validators can be increased over time through governance proposals. Validators are determined by the total number of UNIT tokens delegated to them, along with `$REP` ([refer to the rules for selecting active validators](./faq.md)). The top 100 validator candidates with the highest voting power are the current active validators participating in consensus to generate new blocks.
 
 Validators and their delegators earn Units as block rewards and tokens as transaction fees by executing the Tendermint consensus protocol. Please note that validators can set a commission percentage as an additional reward for the fees they charge their delegators.
 
@@ -26,8 +26,8 @@ Product Supplement - Easier to understand version
 
 2. In the first round of selection, Validators that meet the min-self-delegation requirement are considered, and the top 400 Validators with the highest weight are chosen.
 
-   - By monitoring the bid operation through an event, the Validators that have staked TAT are listed as list-supervalidators.
-   - Validators without any TAT stake in the first step are referred to as list-validators.
+   - By monitoring the bid operation through an event, the Validators that have staked `$REP` are listed as list-supervalidators.
+   - Validators without any `$REP` stake in the first step are referred to as list-validators.
 
 3. Determining the number of Active Validators:
 
