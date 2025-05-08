@@ -8,7 +8,7 @@ sidebar_position: 3
 🚧 Documentation is in progress. Please verify the accuracy of any information before use. For questions or concerns, please contact `contact@treasurenet.org`.
 :::
 
-This is an operation that can only help you become a delegator quickly, but you need to make sure whether you have UNIT and TAT tokens on the Treasurenet mainnet.
+This is an operation that can only help you become a delegator quickly, but you need to make sure whether you have `$UNIT` and `$REP` tokens on the Treasurenet mainnet.
 
 ### Access the dashboard
 

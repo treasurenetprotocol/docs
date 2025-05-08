@@ -2,7 +2,7 @@
 
 ## What is market value?
 
-`$TAT` is intended to record the economic value of the underlying various asset production.
+`$REP` is intended to record the economic value of the underlying various asset production.
 
 Here, market value refers to the value of natural gas and oil produced as observed in real-world trading markets. Treasurenet’s Oracle module uses the Oracle Feeder Tool to query for values from whitelisted data sources.
 

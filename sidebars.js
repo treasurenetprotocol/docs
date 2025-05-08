@@ -14,6 +14,7 @@
 /** @type {import('@docusaurus/plugin-content-docs').SidebarsConfig} */
 const sidebars = {
     docs: [
+        'Litepaper/Litepaper',
         {
             type: 'category',
             label: 'About Treasurenet',
@@ -92,7 +93,7 @@ const sidebars = {
                     link: {
                         type: 'generated-index',
                         title: 'Tokenomics',
-                        description: 'The total supply of $UNIT tokens is finite, but the exact limit will vary depending on the future production of rare assets. This is because Treasurenet block rewards reduce over time. Producers work together to create RWAs to prevent $UNIT block rewards from decaying quickly. Whereas BTC reduces by 50% per period, $UNIT rewards reduce at a rate based on $TAT minted, hence asset produced. ',
+                        description: 'The total supply of $UNIT tokens is finite, but the exact limit will vary depending on the future production of rare assets. This is because Treasurenet block rewards reduce over time. Producers work together to create RWAs to prevent $UNIT block rewards from decaying quickly. Whereas BTC reduces by 50% per period, $UNIT rewards reduce at a rate based on $REP minted, hence asset produced. ',
                     },
                     items: [
                         'about/tokenomics/unit_token',
@@ -158,7 +159,7 @@ const sidebars = {
                             link: {
                                 type: 'generated-index',
                                 title: 'Pilot real-world connection',
-                                description: 'This is applicable for all quantifiable real-world assets to be connected, where $TAT records their respective market value of verifiable asset production.'
+                                description: 'This is applicable for all quantifiable real-world assets to be connected, where $REP records their respective market value of verifiable asset production.'
                             },
                             items: [
                                 'assets/tat_mint/production_audit',
