@@ -1,3 +1,5 @@
+# Litepaper
+
 # **Inception and Vision**  
 It began with a deceptively simple question: ***What is money, actually?***
 
