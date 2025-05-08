@@ -4,6 +4,10 @@ sidebar_position: 2
 
 # Clients
 
+:::caution
+This document is currently in progress or contains incomplete sections. Please verify the accuracy of any information before use. For questions or concerns, please contact `contact@treasurenet.org`.
+:::
+
 Treasurenet supports both Cosmos and Ethereum clients for sending transactions and performing queries.
 
 :::caution

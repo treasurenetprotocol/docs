@@ -14,7 +14,7 @@ The original consensus algorithm, Bitcoin's Proof of Work (PoW), faced limitatio
 
 Treasurenet relies on a group of validator nodes responsible for submitting new blocks in the blockchain. These validators participate in the consensus agreement by broadcasting messages, which contain encrypted digital signatures signed by each validator's private key.
 
-Validator candidates can stake their Unit tokens and request delegation from other token holders.. IInitially, Treasurenet will utilize 8 foundation-controlled nodes as validators.As the network expands and more nodes join, a selection of candidates will be chosen to become ActiveValidators, participating in the consensus process.
+Validator candidates can stake their Unit tokens and request delegation from other token holders.. Initially, Treasurenet will utilize 8 foundation-controlled nodes as validators.As the network expands and more nodes join, a selection of candidates will be chosen to become ActiveValidators, participating in the consensus process.
 
 ### Rewards and Penalties
 

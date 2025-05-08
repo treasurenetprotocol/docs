@@ -4,7 +4,7 @@ sidebar_position: 1
 
 # Becoming a Validator
 
-Validator nodes, which store copies of blockchain history and validate new transactions, serve as the backbone of the blockchain. They generate revenue irrespective of the cryptocurrency market's direction. To operate a validator node, one must have a server with hardware and software configurations meeting the basic requirements. Download, install, and run the necessary software from GitHub to become a node within the Treasurenet blockchain network. An initial stake enables you to become a validator. We encourage all interested individuals or organizations to join us.
+Validator nodes, which store copies of blockchain history and validate new transactions, serve as the backbone of the blockchain. They generate revenue irrespective of the cryptocurrency market's direction. To operate a validator node, one must have a server with hardware and software configurations meeting the [basic requirements](#hardware-requirements). Download, install, and run the necessary software from GitHub to become a node within the Treasurenet blockchain network. An initial stake enables you to become a validator. We encourage all interested individuals or organizations to join us.
 
 ## What does it mean to be a validator?
 
@@ -40,7 +40,7 @@ With the growth of blockchain usage, server demands are expected to rise; thus, 
 
 ## Software
 
-For instructions on installing, deploying, and starting the node, we offer an open-source GitHub project with comprehensive documentation. (For more information, please refer to the Quick Guide document provided.)
+For instructions on installing, deploying, and starting the node, we offer an open-source GitHub project with comprehensive documentation. (For more information, please refer to the [Quick Guide](/docs/validators/quickStart/installation) document provided.)
 
 ## Community
 

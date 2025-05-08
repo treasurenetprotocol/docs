@@ -4,6 +4,10 @@ sidebar_position: 3
 
 # Staking
 
+:::info
+🚧 Documentation is in progress. Please verify the accuracy of any information before use. For questions or concerns, please contact `contact@treasurenet.org`.
+:::
+
 This is an operation that can only help you become a delegator quickly, but you need to make sure whether you have `$UNIT` and `$REP` tokens on the Treasurenet mainnet.
 
 ### Access the dashboard
@@ -63,8 +67,4 @@ In Treasurenet, we have adopted a different strategy known as passive reward dis
 :::caution
 It should be noted that when the weight of a validator on the chain changes (due to actions such as redelegation or undelegation), block rewards will be automatically distributed.
 
-:::
-
-:::info
-🚧 Documentation is in progress.
 :::
