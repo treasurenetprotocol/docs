@@ -39,9 +39,9 @@ On the 'Well Information' interface, provide details about your mine, including 
 By navigating to the Home Page, you can view the following information:
 
 - In the 'My Security Deposit' section (indicated by a blue box at the top-left corner), you can check your deposit balance.
-- At the top-right corner, 'Cumulative Minted TAT' displays the current minting status of the producer's TAT.
+- At the top-right corner, 'Cumulative Minted `$REP`' displays the current minting status of the producer's `$REP`.
 - The line chart at the bottom of the page shows the assets currently held by the producer.
 
-For more detailed information, click 'View Details' in the top-right corner of each box. Here you can access more in-depth information about your margin, TAT, and output.
+For more detailed information, click 'View Details' in the top-right corner of each box. Here you can access more in-depth information about your margin, `$REP`, and output.
 
 ![home_page](/img/docs/home_page.png)

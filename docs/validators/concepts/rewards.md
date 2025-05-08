@@ -37,12 +37,12 @@ $$
 
 <br/>
 
-**To determine $f_n$ , TN compares TAT minted between 2 previous periods where, a delta ($d$) is defined for period $n$:**
+**To determine $f_n$ , TN compares REP minted between 2 previous periods where, a delta ($d$) is defined for period $n$:**
 
 <br/>
 
 $$
-d_n = \frac{\frac{TAT_{from \space period \space n-1}}{TAT_{from \space period \space n-2}}}{1+g}
+d_n = \frac{\frac{REP_{from \space period \space n-1}}{REP_{from \space period \space n-2}}}{1+g}
 $$
 
 <small><center>Delta (d) looks back at 2 previous periods，period n-1 and period n-2 to determine d.</center></small>
@@ -53,7 +53,7 @@ $$
 
     + When $d_n=0$, $f_n$=50%;
 
-      _This is the maximum reduction scenario where there is no new TAT_
+      _This is the maximum reduction scenario where there is no new REP_
 
     + When $0<d_n<1$, $f_n$ is scaled, so that 75% $\leq f_n \leq 90$%.
 
@@ -65,7 +65,7 @@ $$
 
     + Note that when $d_n \geq 10, f_n$=99%
 
-      _This is the minimum reduction scenario where there are more than 10x new TAT_
+      _This is the minimum reduction scenario where there are more than 10x new REP_
 
 - **Pre-selected f key values:** 50%, 75%, 90%, 99%
 

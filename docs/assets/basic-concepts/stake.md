@@ -14,13 +14,13 @@ To further encourage decentralized participation, Validator nodes must accept de
 
 ## What is Bonus Stake
 
-Treasurenet introduces the concept of Bonus Stake based on real-world asset production. Not only can users stake `$UNIT` tokens into Validator nodes, users can bid `$TAT` tokens for a chance at bonus stake rewards.
+Treasurenet introduces the concept of Bonus Stake based on real-world asset production. Not only can users stake `$UNIT` tokens into Validator nodes, users can bid `$REP` tokens for a chance at bonus stake rewards.
 
-While `$UNIT` tokens that are staked are never lost, `$TAT` tokens that are casted for bids will be burned. This is the cost for unlocking maximum `$UNIT` token rewards.
+While `$UNIT` tokens that are staked are never lost, `$REP` tokens that are casted for bids will be burned. This is the cost for unlocking maximum `$UNIT` token rewards.
 
 ## Why is there Bonus Stake
 
-`$UNIT` is an asset-based currency where its total supply is determined by `$TAT`, generated from real-world assets. Therefore, generating such assets should be rewarded appropriately.
+`$UNIT` is an asset-based currency where its total supply is determined by `$REP`, generated from real-world assets. Therefore, generating such assets should be rewarded appropriately.
 
 Rewarded appropriately is the key. To be a sound currency, simply minting a token for asset owners is not wise. Typically, asset-backed tokens are financial securities that mainly benefit the issuers.
 
@@ -30,6 +30,6 @@ Also, in the context of asset-backed tokens, they are typically issued on top of
 
 There is no inherent connection between the native currency of the network and the asset-backed token built on top of it. As a result, real-world assets do not exert any influence on the network rewards.
 
-Instead, Treasurenet first uses `$TAT` to measure all assets, then uses `$TAT` to determine how much asset-based currency, `$UNIT`, that should be minted.
+Instead, Treasurenet first uses `$REP` to measure all assets, then uses `$REP` to determine how much asset-based currency, `$UNIT`, that should be minted.
 
 Finally, Treasurenet uses a proof-of-stake process to appropriately reward `$UNIT` tokens to participants that help secure the network, or contributed real-assets to the network, or even both.

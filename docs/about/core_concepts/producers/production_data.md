@@ -6,7 +6,7 @@ Production Data refers to the output of physical or digital assets provided by t
 2. Treasurenet obtains the public market price of assets produced
 3. Treasurenet modules conduct decentralized output auditing
 
-After passing the audit, `$TAT` will be minted corresponding to the value of assets produced.
+After passing the audit, `$REP` will be minted corresponding to the value of assets produced.
 
 ## How to be a Producer
 

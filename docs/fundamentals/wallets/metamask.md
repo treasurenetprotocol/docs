@@ -72,7 +72,7 @@ The MetaMask browser extension is a wallet for accessing Ethernet-enabled applic
 3. Fill in the token contract address.
 4. Our token contract address information is as follows:
 
-- TAT : 0x465C5ed965692F850f0a3Df1aA29955953a53714
+- `$REP` : 0x465C5ed965692F850f0a3Df1aA29955953a53714
 
 ![importtokens](/img/docs/importtokens.png)
 

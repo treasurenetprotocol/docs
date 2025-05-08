@@ -1,6 +1,6 @@
 # Tokenomics
 
-The total supply of `$UNIT` tokens is finite, but the exact limit will vary depending on the future production of rare assets. This is because Treasurenet block rewards reduce over time. Producers work together to create RWAs to prevent `$UNIT` block rewards from decaying quickly. Whereas BTC reduces by 50% per period, `$UNIT` rewards reduce at a rate based on $`$TAT` minted, hence asset produced.
+The total supply of `$UNIT` tokens is finite, but the exact limit will vary depending on the future production of rare assets. This is because Treasurenet block rewards reduce over time. Producers work together to create RWAs to prevent `$UNIT` block rewards from decaying quickly. Whereas BTC reduces by 50% per period, `$UNIT` rewards reduce at a rate based on $`$REP` minted, reflecting the producer's reputation and asset produced.
 
 ## `$UNIT` Token
 
@@ -31,33 +31,33 @@ The amount of UNIT tokens staked plays a role in determining the selection of va
 **Staking and Reward**
 Validators earn rewards in the form of UNIT tokens for their contributions to the network, such as proposing and validating blocks.
 
-## `$TAT` Token
+## `$REP` Token
 
-`$TAT` serves as the accounting token for representing real-world asset productivity on Treasurenet. `$TAT` serves as a representation of the credibility of each Producer, with its utility derived from the underlying asset(s) it records. The purpose of the `$TAT` is to document and verify the legitimacy of the Treasurenet economy.
+`$REP` serves as the reputation token for representing real-world asset productivity on Treasurenet. `$REP` serves as a representation of the credibility and reputation of each Producer, with its utility derived from the underlying asset(s) it records. The purpose of the `$REP` is to document, verify and reflect the reputation and legitimacy of Producers in the Treasurenet economy.
 
-### Value Sources and Use Cases of `$TAT` Token
+### Value Sources and Use Cases of `$REP` Token
 
 **On-chain proof of creditworthiness:**
-`$TAT` tokens serve as an on-chain proof of creditworthiness for Producers in a decentralized and anonymous manner. `$TAT` can be used to transparently price asset financing. This is because `$TAT` tokens track the production of assets by the Producer, which shows that the Producer has an underlying asset and whether this asset is economical.
+`$REP` tokens serve as an on-chain proof of creditworthiness and reputation for Producers in a decentralized and anonymous manner. `$REP` can be used to transparently evaluate producer reliability and price asset financing. This is because `$REP` tokens track both the production of assets and the credibility of the Producer, demonstrating not only asset ownership but also operational excellence.
 
 Collateralization:
-`$TAT` tokens can be used as collateral for financing activities on the Treasurenet platform. This means that users can use their `$TAT` tokens for financing, without having to sell their real-world assets. On their own, `$TAT` tokens signal a commitment to a financing pool, and the same asset (or portion of the asset) cannot be double-committed elsewhere.
+`$REP` tokens can be used as collateral for financing activities on the Treasurenet platform. This means that users can use their `$REP` tokens for financing, without having to sell their real-world assets. On their own, `$REP` tokens signal both a commitment to a financing pool and the producer's reputation, ensuring that the same asset (or portion of the asset) cannot be double-committed elsewhere.
 
-The Treasurenet DAO is also looking to set up real-world legal structures to claim real-world collateral. This means that if a user defaults on a loan, the Treasurenet DAO will be able to seize their real-world assets. This makes the `$TAT` collateralization system more secure, as it provides lenders with a way to recover their money if a borrower defaults.
+The Treasurenet DAO is also looking to set up real-world legal structures to claim real-world collateral. This means that if a user defaults on a loan, the Treasurenet DAO will be able to seize their real-world assets. This makes the `$REP` collateralization system more secure, as it provides lenders with a way to recover their money if a borrower defaults, while also impacting the producer's reputation score.
 
-Although this type of legal structuring is common practice in legacy markets, combining real-world recourse with on-chain creditworthiness allows for radically transparent financing that is not possible without `$TAT` and Treasurenet’s decentralized audit framework.
+Although this type of legal structuring is common practice in legacy markets, combining real-world recourse with on-chain creditworthiness allows for radically transparent financing that is not possible without `$REP` and Treasurenet’s decentralized audit framework, which ensures both asset verification and reputation tracking.
 
 **TCash Minting Verification:**
-To mint TCash in the Treasurenet ecosystem, users need to verify the TAT minting history. This verification process ensures that TCash is properly backed by real-world assets that have been audited through the Treasurenet protocol.
+To mint TCash in the Treasurenet ecosystem, users need to verify the `$REP` minting history. This verification process ensures that TCash is properly backed by real-world assets that have been audited through the Treasurenet protocol.
 
 **Pool Creation in Otter:**
-Users who want to create a Pool in the Otter platform must have TAT minting records. This requirement ensures that only those who have contributed real assets to the ecosystem can create liquidity pools, maintaining the integrity of the system.
+Users who want to create a Pool in the Otter platform must have `$REP` minting records. This requirement ensures that only those who have contributed real assets to the ecosystem can create liquidity pools, maintaining the integrity of the system.
 
 **Asset-specific indexing:**
-Producers who are connected to the TN Gateway can mint `$TAT` tokens on a regular basis. The rate at which `$TAT` tokens are minted depends on the type of asset that is being produced. This means that the cumulative representative value of an asset class can be tracked by looking at the number of `$TAT` tokens that have been minted for that asset class. This information can be used to make financial decisions, such as deciding which asset classes to invest in.
+Producers who are connected to the TN Gateway can mint `$REP` tokens on a regular basis. The rate at which `$REP` tokens are minted depends on both the type of asset being produced and the producer's operational excellence. This means that the cumulative representative value of an asset class and producer reputation can be tracked by looking at the number of `$REP` tokens that have been minted. This information can be used to make financial decisions, such as evaluating producer reliability and deciding which asset classes to invest in.
 
 **Asset Type Considerations:**
-Currently, the Treasurenet ecosystem supports Oil and Gas as the primary real-world assets. The TAT tokens minted from these assets have the same value and characteristics. As the ecosystem expands to include new asset types in the future, the TAT tokens minted from different assets may have different characteristics, though this is still under consideration.
+Currently, the Treasurenet ecosystem supports Oil and Gas as the primary real-world assets. The `$REP` tokens minted from these assets have the same value and characteristics. As the ecosystem expands to include new asset types in the future, the `$REP` tokens minted from different assets may have different characteristics, though this is still under consideration.
 
 It is worth noting that the option to make asset production information public is in the hands of the Producers.
 
@@ -67,9 +67,9 @@ It is worth noting that the option to make asset production information public i
 
 UNIT tokens are initially distributed through an airdrop mechanism. After the initial distribution, UNIT tokens are generated with each new block at a rate of 10 UNIT per block. This continuous issuance mechanism ensures that the token supply grows in correlation with network activity and real-world asset production.
 
-### TAT Token Distribution
+### `$REP` Token Distribution
 
-Unlike UNIT, TAT tokens do not have an initial distribution at TGE (Token Generation Event). TAT tokens are exclusively minted through the verification of real-world asset production by Producers within the Treasurenet ecosystem. This design ensures that every TAT token in circulation represents actual verified asset production.
+Unlike UNIT, `$REP` tokens do not have an initial distribution at TGE (Token Generation Event). `$REP` tokens are exclusively minted through the verification of real-world asset production by Producers within the Treasurenet ecosystem. This design ensures that every `$REP` token in circulation represents actual verified asset production and producer reputation.
 
 ## General Supply Framework
 
@@ -117,10 +117,10 @@ After determining the total block reward, each block reward is awarded to Active
 |        | Active Validator node | Active Super Validator node                 |
 | ------ | --------------------- | ------------------------------------------- |
 | Apple  | Red                   | USA                                         |
-| Action | Stakes `$UNIT`        | -Stakes `$UNIT` -Bids `$TAT` (burns `$TAT`) |
+| Action | Stakes `$UNIT`        | -Stakes `$UNIT` -Bids `$REP` (burns `$REP`) |
 | Reward | Base Rewards          | Base Rewards; Super Validator Rewards       |
 
-`$UNIT` holders can stake `$UNIT` into any of the nodes to share in proportional Base Rewards. $`$TAT` holders can bid $`$TAT` as well to share in proportional Super Validator Rewards, which is the Bonus Stake described in Core Concepts.
+`$UNIT` holders can stake `$UNIT` into any of the nodes to share in proportional Base Rewards. $`$REP` holders can bid $`$REP` as well to share in proportional Super Validator Rewards, which is the Bonus Stake described in Core Concepts.
 
 In the long run, we estimate Super Validator Rewards make up for about ~30% of the block rewards.
-The magnitude of Super Validator Rewards varies based on how competitive the $`$TAT` bids are between nodes, and based on how many Super Validators are there. Details to be further described in future release.
+The magnitude of Super Validator Rewards varies based on how competitive the $`$REP` bids are between nodes, and based on how many Super Validators are there. Details to be further described in future release.
