@@ -1,28 +1,28 @@
-**Inception and Vision**  
+# **Inception and Vision**  
 It began with a deceptively simple question: ***What is money, actually?***
 
 In the modern financial system, money is not something that simply exists—it is created. Unlike the image of vaults filled with pre-minted bills, the reality is far more abstract. Today, money comes into existence through lending, a process controlled largely by banks. When a financial institution approves a loan, it does not simply redistribute existing funds; instead, it conjures new money into being—numbers on a screen, a balance on a ledger, a promise backed by trust.
 
 So why not rethink *who* gets to create money? And *how*?
 
-That’s where **Treasurenet** comes in: a protocol where your real world actions turn into on-chain value.  
+That's where **Treasurenet** comes in: a protocol where your real world actions turn into on-chain value.  
 
 ---
 
- **Treasurenet:Where Productivity becomes Tradable Value**
+# **Treasurenet: Where Productivity becomes Tradable Value**
 
 Treasurenet proposes an alternative: a financial architecture where value is rooted in verified, measurable productivity—and the system rewards those who produce, not just those who speculate.
 
-### **The New Economic Paradigm**
+## **The New Economic Paradigm**
 
 * **Your work builds your wealth**—directly.  
 * **Your on-chain reputation is a financial asset—**it earns you access, credit, and rewards.  
 * **Your action generates tradable value**—real output becomes a digital token.  
 * **Your contributions are transparently rewarded**—every transaction, verifiable on-chain.
 
-While Treasurenet’s starting point is oil and gas, our vision extends far beyond. We’re focused on expanding asset connections and building the infrastructure needed to support real-world assets across a range of sectors—from telecommunications to data monetization and digital commerce. **Our goal is simple: to create a trusted network where real people can do real things, seamlessly and securely, using Treasurenet.**
+While Treasurenet's starting point is oil and gas, our vision extends far beyond. We're focused on expanding asset connections and building the infrastructure needed to support real-world assets across a range of sectors—from telecommunications to data monetization and digital commerce. **Our goal is simple: to create a trusted network where real people can do real things, seamlessly and securely, using Treasurenet.**
 
-**Market Analysis: Where Treasurenet Fits**
+## **Market Analysis: Where Treasurenet Fits**
 
 Treasurenet creates a new category in the blockchain ecosystem:
 
@@ -36,7 +36,7 @@ Treasurenet creates a new category in the blockchain ecosystem:
 
 ![][image3]
 
-**System Design: How Treasurenet Works**
+## **System Design: How Treasurenet Works**
 
 Treasurenet is built on Proof of Actual Value. Unlike speculative token minting, Treasurenet ties digital currency issuance to real-world productivity—recorded, verified, and secured on-chain. 
 
@@ -50,20 +50,20 @@ Treasurenet is built on Proof of Actual Value. Unlike speculative token minting,
     
 * **TCash:** An alternative currency that can be used for everyday transactions and is minted through collateralized loans using UNIT and governed by Rep credit scoring. **TCash serves as the primary medium of exchange within the Treasurenet ecosystem.**
 
-**Proof of Actual Value: System Flow**
+## **Proof of Actual Value: System Flow**
 
 Unlike asset-backed tokens that rely on centralized promises, Treasurenet runs on an asset-based model. 
 
-Here’s how it works:
+Here's how it works:
 
 1. **Prove Your Work:** Real-world activity is measured, verified, and recorded on-chain.  
-2. **Earn Rep:** The more you produce, the higher your Rep Score. It’s your creditworthiness in the Treasurenet economy.  
+2. **Earn Rep:** The more you produce, the higher your Rep Score. It's your creditworthiness in the Treasurenet economy.  
 3. **Mint UNIT:** Rep earns you UNIT tokens through block rewards.  
 4. **Get Liquid:** Collateralize UNIT to mint TCash for real-world spending.
 
 **This process creates a self-sustaining loop where increased productivity drives token issuance, liquidity, and broader adoption.**
 
-### **Technical Specifications: Secure, Scalable, and Interoperable**
+## **Technical Specifications: Secure, Scalable, and Interoperable**
 
 Treasurenet is built using **Cosmos SDK, Ethermint, and Tendermint Core**, running on a Byzantine Fault Tolerant (BFT) **Proof-of-Stake** consensus mechanism.
 
@@ -73,16 +73,13 @@ Treasurenet is built using **Cosmos SDK, Ethermint, and Tendermint Core**, runni
 * **Modular Smart Contracts** → Expandable and customizable applications.  
 * **Verifiable Data Oracles** → Secure data feeds for productivity verification.
 
-
-**Protocol Architecture and Economic Mechanism**
+# **Protocol Architecture and Economic Mechanism**
 
 Treasurenet protocol connects physical world productivity with digital financial systems through an integrated layered architecture. Each layer serves a specific purpose while working cohesively to create a sustainable ecosystem.
 
 ![][image4]
 
-### 
-
-1. ### **Protocol Architecture**
+## **1. Protocol Architecture**
 
 ### **1.1 Producers: Core Participants**
 
@@ -125,7 +122,7 @@ Different industries demand tailored verification methods. Treasurenet employs *
 
 ### **1.4 Rep Score**
 
-Rep Score is your on-chain scorecard, reflecting real-world contributions with full transparency. With Rep, Producers gain access to Treasurenet’s dApps, establish creditworthiness, and contribute to network growth.
+Rep Score is your on-chain scorecard, reflecting real-world contributions with full transparency. With Rep, Producers gain access to Treasurenet's dApps, establish creditworthiness, and contribute to network growth.
 
 ### **Core Functions of Rep**
 
@@ -134,15 +131,15 @@ Rep Score is your on-chain scorecard, reflecting real-world contributions with f
 * **Asset-Specific Indexing:** Rep tracks sector-specific productivity, offering real-time insights into asset growth.  
 * **Super Validator Rewards:** Burn Rep to gain enhanced rewards and network influence.
 
-**2\. Tokenomics**
+## **2. Tokenomics**
 
-**2.1 UNIT**
+### **2.1 UNIT**
 
-UNIT is Treasurenet’s governance native token. Unlike tokens backed by reserves, UNIT derives its value from actual output. As production increases, UNIT supply grows in sync, establishing a direct link to real-world productivity.
+UNIT is Treasurenet's governance native token. Unlike tokens backed by reserves, UNIT derives its value from actual output. As production increases, UNIT supply grows in sync, establishing a direct link to real-world productivity.
 
 Where Bitcoin follows a rigid 50% reward reduction per halving period, UNIT employs a more nuanced approach. Block rewards decrease proportionally to the volume of Rep minted, creating a direct link between token generation and tangible asset creation.
 
-## **2.2 Key Advantages of UNIT**
+### **2.2 Key Advantages of UNIT**
 
 * **Not a Security:** UNIT sidesteps securities classification by deriving value from real-world production, not financial speculation.  
 * **Dynamic Supply:** Token supply grows in sync with verified asset creation, eliminating artificial scarcity.  
@@ -150,27 +147,27 @@ Where Bitcoin follows a rigid 50% reward reduction per halving period, UNIT empl
 
 ### **2.3 Core Functions of UNIT**
 
-### The token serves multiple critical functions:
+The token serves multiple critical functions:
 
-**Network Economics**
+#### **Network Economics**
 
 * Primary utility token for transaction fees  
 * Mechanism for value transfer  
 * Foundational to network operations
 
-**Consensus and Security**
+#### **Consensus and Security**
 
 * Validators must stake UNIT tokens  
 * Provides economic incentive for network protection  
 * Rewards participants for maintaining network integrity
 
-**Governance**
+#### **Governance**
 
 * Enables decentralized decision-making  
 * Token holders vote on platform proposals  
 * Ensures community-driven evolution
 
-**Validator Dynamics**
+#### **Validator Dynamics**
 
 * Staked UNIT tokens determine validator selection  
 * Rewards are distributed proportionally to contribution  
@@ -180,30 +177,30 @@ Where Bitcoin follows a rigid 50% reward reduction per halving period, UNIT empl
 
 New UNIT tokens are issued as block rewards. The number of rewards is dynamically adjusted based on the production of Rep badges that represent verified RWA output. 
 
-Here’s the Target Rate Mechanism Flow:
+Here's the Target Rate Mechanism Flow:
 
 * **Target Rate Assessment:** Each period, Treasurenet compares actual RWA production rates to a Target Rate set by the DAO Governance.  
 * **Block Reward Adjustment:** Based on this comparison, block rewards are reduced within a defined range to maintain economic balance.
 
-#### **![][image5]**
+![][image5]
 
-#### **2.5 The Three Scenarios of Token Generation**
+### **2.5 The Three Scenarios of Token Generation**
 
-**![][image6]**
+![][image6]
 
-**1\. Falling Short of Target**
+**1. Falling Short of Target**
 
 * RWA production below expectations  
 * Block rewards reduced by 10% to 50%  
 * Encourages increased asset-creation efforts
 
-**2\. Meeting the Target**
+**2. Meeting the Target**
 
 * RWA production aligns with expectations  
 * Moderate block reward reduction of 10%  
 * Maintains economic balance
 
-**3\. Exceeding the Target**
+**3. Exceeding the Target**
 
 * RWA production surpasses expectations  
 * Minimal block reward reduction of 1% to 10%  
@@ -213,7 +210,7 @@ Here’s the Target Rate Mechanism Flow:
 
 UNIT and Rep determine how rewards are distributed. Each block reward is allocated to validators based on their actions:
 
-### **Validator Rewards & Participation**
+#### **Validator Rewards & Participation**
 
 Rewards are allocated to two categories of nodes:
 
@@ -224,20 +221,20 @@ Super Validator Rewards are projected to represent **30% of total block rewards*
 
 ![][image7]
 
-**2\. 7 Key Parameters:**
+### **2.7 Key Parameters:**
 
 * Period duration: 1 year (measured in blocks)  
 * Initial block reward: 10 UNIT/block (fixed for first two periods)  
 * Target production growth rate: 10%  
 * Maximum block reward reduction: 50%  
 * Minimum block reward reduction: 1%  
-* Growth rate distribution model: PERT \[-50%, 15%, 500%\]
+* Growth rate distribution model: PERT [-50%, 15%, 500%]
 
 **Long-term simulations project total UNIT supply between 700-800 million tokens over 500 years, dynamically reflecting real-world productivity growth**
 
-**3\. TCash**
+## **3. TCash**
 
-TCash is Treasurenet’s alternate currency designed for seamless capital movement. Unlike traditional stablecoins pegged to USD, TCash maintains stability by responding to market forces, much like fiat currencies without rigid benchmarks.
+TCash is Treasurenet's alternate currency designed for seamless capital movement. Unlike traditional stablecoins pegged to USD, TCash maintains stability by responding to market forces, much like fiat currencies without rigid benchmarks.
 
 **Core Functions:**
 
@@ -252,7 +249,7 @@ TCash employs a bank-like model where loans are issued against collateral. Users
 
 * **Qualification:** Users collateralize UNIT to borrow TCash.  
 * **Loan Calculation:**  
-  Loaned TCash \= (Collateral UNIT × UNIT Price × Risk Coefficient) ÷ TCash Price  
+  Loaned TCash = (Collateral UNIT × UNIT Price × Risk Coefficient) ÷ TCash Price  
 * **Borrowing Limits:** Minimum of **0.000000001 TCash**. Cannot exceed calculated borrowable amount.
 
 ### **3.2 Qualification and Growth**
@@ -291,25 +288,25 @@ TCash powers real-world economic activity:
 * **Stable Unit of Account:** Transparent pricing without volatility.  
 * **Enterprise-Ready:** Designed for both individual and commercial applications.
 
-## **4\. Token Distribution**
+## **4. Token Distribution**
 
-Treasurenet’s token launch puts contributors and ecosystem first. The genesis supply of **90,000,000 $UNIT** is allocated to reward early participants, align long-term supporters, and ensure liquidity from day one.
+Treasurenet's token launch puts contributors and ecosystem first. The genesis supply of **90,000,000 $UNIT** is allocated to reward early participants, align long-term supporters, and ensure liquidity from day one.
 
-**4.1 Distribution Structure**
+### **4.1 Distribution Structure**
 
 The initial 90,000,000 UNIT tokens are allocated across the following segments:
 
-1. **Community Airdrop** (40.25%) \- Early contributors to the Treasurenet mainnet are directly rewarded through the community airdrop, driving organic growth and grassroots participation from the start.  
-2. **Founding Investors** (20%) \- Long-term aligned investors who share the vision for Treasurenet’s development receive a dedicated allocation.   
-3. **Protocol Reserve** (23%) \-Strategically held to fund ecosystem initiatives, liquidity programs, grants, and future community-driven proposals aligned with long term protocol growth.   
-4. **Team Reserve** (10%) \- Allocated to core contributors with a clear vesting schedule, ensuring incentives are tied to long-term network success. Only unlocked tokens are eligible for staking to maintain network security.  
-5. **Early Producers** (6.75%) \- Reserved for individuals who contributed during Treasurenet’s critical pre-launch phase. These tokens unlock linearly over 12 months.
+1. **Community Airdrop** (40.25%) - Early contributors to the Treasurenet mainnet are directly rewarded through the community airdrop, driving organic growth and grassroots participation from the start.  
+2. **Founding Investors** (20%) - Long-term aligned investors who share the vision for Treasurenet's development receive a dedicated allocation.   
+3. **Protocol Reserve** (23%) -Strategically held to fund ecosystem initiatives, liquidity programs, grants, and future community-driven proposals aligned with long term protocol growth.   
+4. **Team Reserve** (10%) - Allocated to core contributors with a clear vesting schedule, ensuring incentives are tied to long-term network success. Only unlocked tokens are eligible for staking to maintain network security.  
+5. **Early Producers** (6.75%) - Reserved for individuals who contributed during Treasurenet's critical pre-launch phase. These tokens unlock linearly over 12 months.
 
 ✅ **Total supply:** 90M $UNIT distributed with alignment to real usage, long-term participation, and minimized short-term speculation.
 
-This distribution ensures that the people building and supporting Treasurenet—validators, developers, and early users—have a real stake in its success. Lower barriers to entry mean more room for innovation and participation from Day 0\.
+This distribution ensures that the people building and supporting Treasurenet—validators, developers, and early users—have a real stake in its success. Lower barriers to entry mean more room for innovation and participation from Day 0.
 
-#### **4.2 Distribution Mechanics**
+### **4.2 Distribution Mechanics**
 
 * **Network Exclusivity:** UNIT tokens distributed via airdrop will initially function exclusively on the Treasurenet mainnet, with controlled bridge implementations for cross-chain liquidity.  
 * **Linear Vesting:** Early producer allocations (6.75% of supply) unlock linearly over 12 months without cliffs, ensuring sustained participation through the protocol's initial growth phase.  
@@ -322,7 +319,7 @@ Staking is permissioned for value-aligned holders. Vested team tokens, early con
 
 This is intentional: staking is designed to reinforce long-term participation, not passive liquidity.
 
-## **5\. System Integration**
+## **5. System Integration**
 
 The Treasurenet protocol integrates its components through a sequential flow:
 
@@ -338,21 +335,21 @@ This integrated architecture creates a self-reinforcing ecosystem where real-wor
 
 # **Native dApps Under Development**
 
-We are going to release a native dApps that mirrors real world yield. Here’s how it will work:
+We are going to release a native dApps that mirrors real world yield. Here's how it will work:
 
-#### **1\. Producers → Rep**
+## **1. Producers → Rep**
 
 Participants in the real world (e.g., energy producers, resource extractors) perform measurable work. That activity is verified in real-time and translated into a **Rep Score** — an on-chain measure of productivity, precision-engineered to be trustless and transparent.
 
-#### **2\. Contributors → Yield Pools**
+## **2. Contributors → Yield Pools**
 
-Holders of TCash can allocate capital into **Yield Pools** tied to specific Rep-generating producers. These pools are not abstract—they are connected to asset-producing activity that’s verifiable on-chain.
+Holders of TCash can allocate capital into **Yield Pools** tied to specific Rep-generating producers. These pools are not abstract—they are connected to asset-producing activity that's verifiable on-chain.
 
-#### **3\. Yields → Based on Performance**
+## **3. Yields → Based on Performance**
 
-Returns are generated and streamed based on actual productivity. The stronger the producer’s Rep score, the more attractive the yield.
+Returns are generated and streamed based on actual productivity. The stronger the producer's Rep score, the more attractive the yield.
 
-####  **Smart Incentives:**
+###  **Smart Incentives:**
 
 * Contributors assess Rep before depositing — or choose to swap TCash on open markets  
 * Yields are auto-distributed to wallets based on verified returns — no intermediaries, no friction  
@@ -368,31 +365,31 @@ Returns are generated and streamed based on actual productivity. The stronger th
 * **Bet on Real Value:** With Rep measuring real-world productivity, derivatives trading becomes clearer and safer. No shady metrics — just actual data, straight from the source.  
 * **Layer 2, Built For You:** Industries are different. Treasurenet gets it. Custom Layer 2s ensure oracles deliver the right data for the right market. No fluff. Just actionable insights.
 
-### **Strategic Roadmap and Development Path** 
+# **Strategic Roadmap and Development Path** 
 
-**Q2 2025**
+## **Q2 2025**
 
 * TGE launches April 28th with UNIT and TCash on Uniswap  
 * Launching native dApp that mirrors real world yield.   
 * Release of Rep 2.0 enabling permissionless asset connections
 
-**Q3 2025**
+## **Q3 2025**
 
 * Bitcoin miners can begin logging their hashwork on TN Gateway and become producers  
 * Asset onboarding proposals go live  
 * Testnet events and hackathons for developers  
 * Expanded producer network
 
-**Q4 2025**
+## **Q4 2025**
 
 * Custom L2 solutions for specific asset classes  
 * Expanded cross-chain integrations
 
-**Team Expansion:**
+## **Team Expansion:**
 
 * Throughout the year, actively recruit for key roles in **Security, Trading, and Development** to scale operations effectively.
 
-**About The Team**
+# **About The Team**
 
 Treasurenet is built by a hands-on team of blockchain developers and finance professionals who want to bridge real-world assets with decentralized systems.
 
@@ -404,15 +401,15 @@ Its job? Simple:
 * Educate people about how it works.  
 * Build online and offline communities.  
 * Keep decision-making transparent and fair.  
-* Help expand Treasurenet’s network.
+* Help expand Treasurenet's network.
 
-**Strategic Backing** 
+## **Strategic Backing** 
 
 Since 2021, Treasurenet has worked with major oil and gas asset producers to bring real-world backing to the platform. The team behind it? Experienced blockchain builders and financial experts who know what it takes to build something stable and scalable.
 
-The goal has always been clear: **Connect Traditional finance to the future of DeFi. And now, it’s live — creating real-world impact, one transaction at a time.**
+The goal has always been clear: **Connect Traditional finance to the future of DeFi. And now, it's live — creating real-world impact, one transaction at a time.**
 
-**Why It Matters** 
+# **Why It Matters** 
 
 Traditional credit systems are restrictive and favor established players. By linking credit and liquidity to measurable productivity, the protocol provides fair access to economic growth for businesses and individuals.
 
