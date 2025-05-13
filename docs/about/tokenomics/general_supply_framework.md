@@ -31,7 +31,7 @@ This estimate is based on the following highlighted assumptions. However, it is 
 
 We assume the first 3 periods’ growth rate to be `500%`, as we develop more RWA connections.
 
-Then, the steady-s`$REP`e growth rate be modeled as a PERT Distribution,
+Then, the steady-state growth rate be modeled as a PERT Distribution,
 defined by - `50%` as the low expected rate, `15%` as the expected rate, and `500%` as the maximum expected rate.
 
 When simulated for 500 periods, UNIT supply may resemble this following distribution. For complete details, please stay tuned for the further releases.

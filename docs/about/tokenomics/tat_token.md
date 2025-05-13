@@ -1,6 +1,6 @@
 # `$REP` Token
 
-`$REP` serves as the accounting token for representing real-world asset productivity on Treasurenet. `$REP` serves as a represen`$REP`ion of the credibility of each Producer, with its utility derived from the underlying asset(s) it records. The purpose of the `$REP` is to document and verify the legitimacy of the Treasurenet economy.
+`$REP` serves as the accounting token for representing real-world asset productivity on Treasurenet. `$REP` serves as a representation of the credibility of each Producer, with its utility derived from the underlying asset(s) it records. The purpose of the `$REP` is to document and verify the legitimacy of the Treasurenet economy.
 
 On-chain proof of creditworthiness:
 `$REP` tokens serve as an on-chain proof of creditworthiness for Producers in a decentralized and anonymous manner. `$REP` can be used to transparently price asset financing. This is because `$REP` tokens track the production of assets by the Producer, which shows that the Producer has an underlying asset and whether this asset is economical.
@@ -13,4 +13,4 @@ The Treasurenet DAO is also looking to set up real-world legal structures to cla
 Although this type of legal structuring is common practice in legacy markets, combining real-world recourse with on-chain creditworthiness allows for radically transparent financing that is not possible without `$REP` and Treasurenet’s decentralized audit framework.
 
 Asset-specific indexing:
-Producers who are connected to the TN Gateway can mint `$REP` tokens on a regular basis. The rate at which `$REP` tokens are minted depends on the type of asset that is being produced. This means that the cumulative represen`$REP`ive value of an asset class can be tracked by looking at the number of `$REP` tokens that have been minted for that asset class. This information can be used to make financial decisions, such as deciding which asset classes to invest in. It is worth noting that the option to make this asset information public is in the hands of the Producers.
+Producers who are connected to the TN Gateway can mint `$REP` tokens on a regular basis. The rate at which `$REP` tokens are minted depends on the type of asset that is being produced. This means that the cumulative representative value of an asset class can be tracked by looking at the number of `$REP` tokens that have been minted for that asset class. This information can be used to make financial decisions, such as deciding which asset classes to invest in. It is worth noting that the option to make this asset information public is in the hands of the Producers.
