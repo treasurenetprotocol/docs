@@ -146,10 +146,10 @@ const sidebars = {
                 'assets/connection_guidelines',
                 {
                     type: 'category',
-                    label: 'TAT Mint by Asset-Class',
+                    label: 'Minting Rep',
                     link: {
                         type: 'generated-index',
-                        title: 'TAT Mint by Asset-Class',
+                        title: 'Minting Rep',
                         description: 'Notice: Documentation is in progress. Further asset connections under development. Requirements may be adjusted via DAO Governance proposals.',
                     },
                     items: [
