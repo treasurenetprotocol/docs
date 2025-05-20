@@ -4,6 +4,10 @@ sidebar_position: 3
 
 # Run a Node
 
+:::caution
+This document is currently in progress or contains incomplete sections. Please verify the accuracy of any information before use. For questions or concerns, please contact `contact@treasurenet.org`.
+:::
+
 ## Automated deployment
 
 Execute init-gravity.sh in the root directory to run the local node via an automation script

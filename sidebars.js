@@ -14,6 +14,7 @@
 /** @type {import('@docusaurus/plugin-content-docs').SidebarsConfig} */
 const sidebars = {
     docs: [
+        'Litepaper/Litepaper',
         {
             type: 'category',
             label: 'About Treasurenet',
@@ -145,10 +146,10 @@ const sidebars = {
                 'assets/connection_guidelines',
                 {
                     type: 'category',
-                    label: 'REP Mint by Asset-Class',
+                    label: 'Minting Rep',
                     link: {
                         type: 'generated-index',
-                        title: 'REP Mint by Asset-Class',
+                        title: 'Minting Rep',
                         description: 'Notice: Documentation is in progress. Further asset connections under development. Requirements may be adjusted via DAO Governance proposals.',
                     },
                     items: [
