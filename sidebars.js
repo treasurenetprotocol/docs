@@ -145,10 +145,10 @@ const sidebars = {
                 'assets/connection_guidelines',
                 {
                     type: 'category',
-                    label: 'TAT Mint by Asset-Class',
+                    label: 'REP Mint by Asset-Class',
                     link: {
                         type: 'generated-index',
-                        title: 'TAT Mint by Asset-Class',
+                        title: 'REP Mint by Asset-Class',
                         description: 'Notice: Documentation is in progress. Further asset connections under development. Requirements may be adjusted via DAO Governance proposals.',
                     },
                     items: [
@@ -203,7 +203,7 @@ const sidebars = {
                     link: {
                         type: 'generated-index',
                         title: 'New Asset Workflow Registration',
-                        description: 'Treasurenet welcomes rare assets to join the network and generate corresponding TAT. Please contact Treasurenet Foundation through any communication channels.'
+                        description: 'Treasurenet welcomes rare assets to join the network and generate corresponding REP. Please contact Treasurenet Foundation through any communication channels.'
                     },
                     items: [
                         'assets/new_asset_workflow',
