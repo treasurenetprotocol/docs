@@ -204,7 +204,7 @@ const sidebars = {
                     link: {
                         type: 'generated-index',
                         title: 'New Asset Workflow Registration',
-                        description: 'Treasurenet welcomes rare assets to join the network and generate corresponding TAT. Please contact Treasurenet Foundation through any communication channels.'
+                        description: 'Treasurenet welcomes rare assets to join the network and generate corresponding REP. Please contact Treasurenet Foundation through any communication channels.'
                     },
                     items: [
                         'assets/new_asset_workflow',
