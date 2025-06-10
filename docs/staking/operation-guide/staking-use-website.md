@@ -14,7 +14,10 @@ This is an operation that can only help you become a delegator quickly, but you 
 
 - Select the Treasurenet mainnet in your wallet (MetaMask).
 
-![Staking_MetaMask](/img/docs/metamask.jpg)
+<div class="image-row">
+  <img src="/img/docs/metamask.jpeg" alt="Staking_MetaMask" />
+  <img src="/img/docs/metamask2.jpeg" alt="Staking_MetaMask2" />
+</div>
 
 - Visit the [official website](https://splatform.treasurenet.io/Stake/activeValidators) and choose an appropriate Active Validator.
 
