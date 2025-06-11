@@ -29,7 +29,7 @@
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
 }
 
-/* 图片横向排列样式 */
+/* Image horizontal arrangement style */
 .image-row {
   display: flex;
   flex-direction: row;
@@ -44,7 +44,7 @@
   object-fit: contain;
 }
 
-/* 响应式处理 */
+/* Responsive processing */
 @media (max-width: 768px) {
   .image-row {
     flex-direction: column;
