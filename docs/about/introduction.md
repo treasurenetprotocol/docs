@@ -4,11 +4,13 @@ sidebar_position: 1
 
 # Introduction
 
-Treasurenet Protocol is the first Layer 1 blockchain protocol that is creating an on-chain economic system, based on real-world rare assets.
+Treasurenet is a Layer 1 blockchain purpose-built to transform real-world activity into verified blockchain-native value.
 
-Treasurenet creates an audited, transparent, and secure way of interacting with real-world assets, paving the way for a more robust and reliable financial future in a truly decentralized manner with complete ownership and privacy.
+​​It captures physical output—such as energy generation, resource extraction, and manufacturing—and records it on-chain as verified data. This is made possible by a custom-built infrastructure designed to track, authenticate, and record physical output using smart contracts. 
 
-The core objective is to achieve complete integration between the digital and physical economies by introducing a hybrid medium of stored value called the **$UNIT** token. Through this, we aim to establish a unified WEB3 financial system that seamlessly combines the strengths of both digital and physical assets.
+At its core, Treasurenet is a system where action generates reputation, reputation mints currency, and currency unlocks liquidity. 
+
+
 
 ## Features
 
