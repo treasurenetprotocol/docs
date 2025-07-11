@@ -52,7 +52,7 @@ By default, the init command creates your `~/.treasurenetd` (i.e. $HOME) directo
 
 #### Copy Genesis File
 
-Check the [genesis.json 文件](https://docs.treasurenet.io/docs/protocolDevelopers/genesis/), file in the archive and copy it to the configuration directory:`~/.treasurenetd/config/genesis.json`. This is the genesis file that contains the chain ID and the balance of the genesis account.
+Check the [genesis.json file](https://docs.treasurenet.io/docs/protocolDevelopers/genesis/), file in the archive and copy it to the configuration directory:`~/.treasurenetd/config/genesis.json`. This is the genesis file that contains the chain ID and the balance of the genesis account.
 
 ```shell
 sudo apt install -y unzip wget

@@ -4,7 +4,7 @@ sidebar_position: 1
 
 # Bonus Stake
 
-合约信息
+Contract Information
 
 |Environment|Address|ABI File|
 |--|--|--|
@@ -17,34 +17,34 @@ sidebar_position: 1
 - Function: **bidREP** 
 - Type: **Transaction**
 
-    质押Bonus Stake的合约函数，参数是stake的Tat token数量。
+    Contract function for staking Bonus Stake, with parameter being the amount of `$REP` tokens to stake.
     
-    ❗️请注意：无论投入的Tat Token是否为您取得了额外的奖励（Bonus Block Reward），您投入的Tat Token都将被销毁。
+    ❗️Please note: Regardless of whether your staked `$REP` tokens earn you additional rewards (Bonus Block Reward), your staked `$REP` tokens will be burned.
     
-    ❗️请注意：请确保您的账户和您所属的Validator节点一切正常，如果您的账号找不到对应Validator，或者此时此刻您的Validator运行异常，Tat Token销毁之后将不能给您带来任何额外收益。
+    ❗️Please note: Please ensure that your account and associated Validator node are functioning properly. If your account cannot find the corresponding Validator, or if your Validator is experiencing issues at this moment, the `$REP` tokens will be burned without bringing you any additional benefits.
     
     Input
     
     |parameter name|type|description|
     |--|--|--|
-    |amount|uint|Tat token 数量|
+    |amount|uint|`$REP` token amount|
     
     Result
     
     |parameter name|type|description|
     |--|--|--|
-    |result|boolean|正确返回true|
+    |result|boolean|Returns true when executed correctly|
 
 
 
 - Event: bidBurn
 
-    监听此事件将可以获得所有人通过"bidREP"函数正确质押的数据。
+    Listening to this event will allow you to obtain data from all successful stakes made through the "bidREP" function by all users.
     
     Parameters
     
     |parameter name|type|description|
     |--|--|--|
-    |sender|address|stake用户的地址|
-    |amount|uint|Tat token 数量|
+    |sender|address|Address of the staking user|
+    |amount|uint|`$REP` token amount|
 

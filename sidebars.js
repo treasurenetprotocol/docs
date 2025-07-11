@@ -14,351 +14,113 @@
 /** @type {import('@docusaurus/plugin-content-docs').SidebarsConfig} */
 const sidebars = {
     docs: [
-        'Litepaper/Litepaper',
-        {
-            type: 'category',
-            label: 'About Treasurenet',
-            link: {
-                type: 'generated-index',
-                title: 'About Treasurenet',
-            },
-            items: [
-                'about/introduction',
-                {
-                    type: 'category',
-                    label: 'Core Concepts',
-                    link: {
-                        type: 'generated-index',
-                        title: 'Core Concepts',
-                    },
-                    items: [
-                        'about/core_concepts/layer_1_built_on_RWA_production',
-                        {
-                            type: 'category',
-                            label: 'Producers',
-                            link: {
-                                type: 'generated-index',
-                                title: 'Producers',
-                            },
-                            items: [
-                                'about/core_concepts/producers/what_is_a_producer',
-                                'about/core_concepts/producers/benefits_of_a_producer',
-                                'about/core_concepts/producers/production_data',
-                            ]
-                        },
-                        'about/core_concepts/tn_gateway_and_tools',
-                        {
-                            type: 'category',
-                            label: 'Decentralized RWA Audit',
-                            link: {
-                                type: 'generated-index',
-                                title: 'Decentralized RWA Audit',
-                            },
-                            items: [
-                                'about/core_concepts/d_audit/decentralized_RWA_audit',
-                                {
-                                    type: 'category',
-                                    label: 'Privacy Protection',
-                                    link: {
-                                        type: 'generated-index',
-                                        title: 'Privacy Protection',
-                                    },
-                                    items: [
-                                        'about/core_concepts/d_audit/privacy_protection/what_constitutes_private_data_in_treasurenet',
-                                        'about/core_concepts/d_audit/privacy_protection/why_protect_asset_privacy',
-                                        'about/core_concepts/d_audit/privacy_protection/how_to_protect_private_data',
-                                    ]
-                                },
 
-                            ]
-                        },
-                        {
-                            type: 'category',
-                            label: 'Stake & Bonus Stake',
-                            link: {
-                                type: 'generated-index',
-                                title: 'Stake & Bonus Stake',
-                            },
-                            items: [
-                                'about/core_concepts/stake_and_bonus_stake/what_is_staking',
-                                'about/core_concepts/stake_and_bonus_stake/what_is_bonus_stake',
-                                'about/core_concepts/stake_and_bonus_stake/why_is_there_bonus_stake',
-                            ]
-                        },
-                    ]
-                },
-                {
-                    type: 'category',
-                    label: 'Tokenomics',
-                    link: {
-                        type: 'generated-index',
-                        title: 'Tokenomics',
-                        description: 'The total supply of $UNIT tokens is finite, but the exact limit will vary depending on the future production of rare assets. This is because Treasurenet block rewards reduce over time. Producers work together to create RWAs to prevent $UNIT block rewards from decaying quickly. Whereas BTC reduces by 50% per period, $UNIT rewards reduce at a rate based on $REP minted, hence asset produced. ',
-                    },
-                    items: [
-                        'about/tokenomics/unit_token',
-                        'about/tokenomics/tat_token',
-                        'about/tokenomics/general_supply_framework',
-                    ]
-                },
-                {
-                    type: 'category',
-                    label: 'dApps Under Development',
-                    link: {
-                        type: 'generated-index',
-                        title: 'dApps Under Development',
-                    },
-                    items: [
-                        'about/dapps_under_development/TCash',
-                        'about/dapps_under_development/use_cases',
-                    ]
-                },
+        {
+            type: 'category',
+            label: 'Introduction',
+            items: [
+                '1/Introduction',
             ]
         },
         {
             type: 'category',
-            label: 'Fundamentals',
-            link: {
-                type: 'generated-index',
-                title: 'Fundamentals',
-            },
+            label: 'How Treasurenet Works',
             items: [
-                {
-                    type: 'category',
-                    label: 'Digital Wallets',
-                    items: [
-                        'fundamentals/wallets/metamask',
-                        'fundamentals/wallets/coinbase',
-                    ]
-                },
-                'fundamentals/transfer-tokens',
+                '2/How Treasurenet Works',
+                '2/Step 1',
+                '2/Step 2',
+                '2/Step 3',
+                '2/Step 4',
+                '2/Step 5',
+                '2/Step 6',
             ]
         },
         {
             type: 'category',
-            label: 'Assets Production',
-            link: {
-                type: 'generated-index',
-                title: 'Assets Production',
-            },
+            label: 'Network Roles',
             items: [
-                'assets/producer_portal',
-                'assets/connection_guidelines',
-                {
-                    type: 'category',
-                    label: 'Minting Rep',
-                    link: {
-                        type: 'generated-index',
-                        title: 'Minting Rep',
-                        description: 'Notice: Documentation is in progress. Further asset connections under development. Requirements may be adjusted via DAO Governance proposals.',
-                    },
-                    items: [
-                        {
-                            type: 'category',
-                            label: 'Pilot real-world connection',  //Pilot real-world connection
-                            link: {
-                                type: 'generated-index',
-                                title: 'Pilot real-world connection',
-                                description: 'This is applicable for all quantifiable real-world assets to be connected, where $REP records their respective market value of verifiable asset production.'
-                            },
-                            items: [
-                                'assets/tat_mint/production_audit',
-                                'assets/tat_mint/market_value',
-                                'assets/tat_mint/data_requirements',
-                            ]
-                        },
-                        {
-                            type: 'category',
-                            label: 'Pilot Producer Guide',
-                            link: {
-                                type: 'generated-index',
-                                title: 'Pilot Producer Guide',
-                            },
-                            items: [
-                                'assets/tat_mint/registration',
-                                'assets/tat_mint/wellmanagement',
-                                {
-                                    type: 'category',
-                                    label: 'Automatic Upload Tools',
-                                    link: {
-                                        type: 'generated-index',
-                                        title: 'Automatic Upload Tools',
-                                    },
-                                    items: [
-                                        'assets/tat_mint/production_data_intro',
-                                        'assets/tat_mint/production_data_process',
-                                        'assets/tat_mint/production_data_uploader',
-                                        'assets/tat_mint/production_data_manual'
-                                    ]
-                                },
-                                'assets/tat_mint/expense',
-                                'assets/tat_mint/mint',
-                                'assets/tat_mint/messages',
-                            ]
-                        }
-                    ]
-                },
-                {
-                    type: 'category',
-                    label: 'New Asset Workflow Registration',
-                    link: {
-                        type: 'generated-index',
-                        title: 'New Asset Workflow Registration',
-                        description: 'Treasurenet welcomes rare assets to join the network and generate corresponding REP. Please contact Treasurenet Foundation through any communication channels.'
-                    },
-                    items: [
-                        'assets/new_asset_workflow',
-                    ]
-                }
+                '3/Network Roles',
             ]
         },
         {
             type: 'category',
-            label: 'For Delegaters',
-            link: {
-                type: 'generated-index',
-                title: 'For Delegaters',
-            },
+            label: 'Litepaper',
             items: [
-                'staking/introduction',
-                {
-                    type: 'category',
-                    label: 'Operation Guide',
-                    items: [
-                        'staking/operation-guide/staking-use-website',
-                        'staking/operation-guide/staking-use-code',
-                        'staking/operation-guide/stakeboosting',
-                    ],
-
-                },
-                /*'staking/qa',*/
+                '4/Litepaper',
             ]
         },
         {
             type: 'category',
-            label: 'For Validators',
-            link: {
-                type: 'generated-index',
-                title: 'For Validators',
-            },
+            label: 'Tokenomics Overview',
             items: [
-                'validators/overview',
-                {
-                    type: 'category',
-                    label: 'Basic Concepts',
-                    items: [
-                        'validators/concepts/validator-delegator',
-                        'validators/concepts/becoming-a-validator',
-                        'validators/concepts/rewards',
-                    ],
-                },
-                {
-                    type: 'category',
-                    label: 'Quick Start',
-                    items: [
-                        'validators/quickStart/installation',
-                        'validators/quickStart/treasurenetd',
-                        'validators/quickStart/run-a-node',
-                        'validators/quickStart/init',
-                    ],
-                },
-                {
-                    type: 'category',
-                    label: 'Setup & Configuration',
-                    items: [
-                        'validators/setup/run-a-validator',
-                        'validators/setup/configuration',
-                    ]
-                },
-                'validators/join-testnet',
-                'validators/join-mainnet',
-                'validators/create-your-gentx',
-                'validators/faq',
+                '5/Tokenomics Overview',
+                '5/REP Score',
+                '5/UNIT',
+                '5/Genesis of UNIT',
+                '5/TCash',
             ]
         },
         {
             type: 'category',
-            label: 'For Dapp Devs',
-            link: {
-                type: 'generated-index',
-                title: 'For Dapp Devs',
-            },
+            label: 'Staking & Rewards',
             items: [
-                'developers/quick-connect',
-                'developers/tn-gateway',
-                'developers/clients',
-                {
-                    type: 'category',
-                    label: 'Localnet',
-                    items: [
-                        'developers/localnet/single-node',
-                        'developers/localnet/multi-node',
-                        'developers/localnet/testnet-command',
-                    ]
-                },
-                {
-                    type: 'category',
-                    label: 'Testnet',
-                    items: [
-                        'developers/testnet/faucet',
-                    ]
-                },
-                {
-                    type: 'category',
-                    label: 'Javascript Libraries',
-                    items: [
-                        {
-                            type:'link',
-                            label:'@treasurenet/address-converter',
-                            href:'https://www.npmjs.com/package/@treasurenet/address-converter'
-                        },
-                        {
-                            type:'link',
-                            label:'@treasurenet/proto',
-                            href:'https://www.npmjs.com/package/@treasurenet/proto'
-                        },
-                        {
-                            type:'link',
-                            label:'@treasurenet/provider',
-                            href:'https://www.npmjs.com/package/@treasurenet/provider'
-                        },
-                        {
-                            type:'link',
-                            label:'@treasurenet/eip712',
-                            href:'https://www.npmjs.com/package/@treasurenet/eip712'
-                        },
-                        {
-                            type:'link',
-                            label:'@treasurenet/transactions',
-                            href:'https://www.npmjs.com/package/@treasurenet/transactions'
-                        },
-                        {
-                            type:'link',
-                            label:'@treasurenet/hash',
-                            href:'https://www.npmjs.com/package/@treasurenet/hash'
-                        },
-                    ]
-                },
-                {
-                    type: 'category',
-                    label: 'Ethereum JSON-RPC',
-                    items: [
-                        'developers/eth-json-rpc/methods',
-                    ]
-                },
-                {
-                    type: 'link',
-                    label: 'Cosmos gRPC & REST',
-                    href: 'https://www.google.com'
-                },
-                /*'developers/faq'*/
+                '6/Staking & Rewards',
+                '6/What is Staking',
+                '6/What is Bonus Stake',
             ]
         },
         {
             type: 'category',
-            label: 'Block Explorers',
+            label: 'Network Role',
             items: [
-                'blockExplorers/intro',
+                '7/Network Role',
+                '7/Producers as Core Participants',
+                '7/Pilot Producers',
+                '7/How it works',
+            ]
+        },
+        {
+            type: 'category',
+            label: 'Privacy & Protection',
+            items: [
+                '8/Privacy & Protection',
+                '8/Why Privacy Matters',
+            ]
+        },
+        {
+            type: 'category',
+            label: 'Validators',
+            items: [
+                '9/Validators',
+                '9/How to become a Validator',
+            ]
+        },
+        {
+            type: 'category',
+            label: 'Delegators',
+            items: [
+                '10/Delegators',
+                '10/How Delegation Works',
+                '10/How to Choose a Validator',
+            ]
+        },
+        {
+            type: 'category',
+            label: 'Use Cases',
+            items: [
+                '11/Use Cases',
+                '11/TCash',
+                '11/Otter',
+                '11/Other Use Cases',
+            ]
+        },
+        {
+            type: 'category',
+            label: 'How to Section',
+            items: [
+                '12/How to Section',
+                '12/Wallet Setup',
+                '12/Transfer Tokens',
             ]
         },
     ],

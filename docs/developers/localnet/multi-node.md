@@ -51,7 +51,7 @@ docker exec node0 tail treasurenetd.log
 
 ### Interact with the Localnet
 
-#### Ethereum JSON-RPC 和 Websocket 接口
+#### Ethereum JSON-RPC and Websocket Interface
 
 To interact with testnet via Websocket or RPC/API, you need to send a request to the appropriate port:
 
