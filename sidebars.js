@@ -14,7 +14,7 @@
 /** @type {import('@docusaurus/plugin-content-docs').SidebarsConfig} */
 const sidebars = {
     docs: [
-        
+
         {
             type: 'category',
             label: 'Introduction',
@@ -29,6 +29,10 @@ const sidebars = {
                 '2/How Treasurenet Works',
                 '2/Step 1',
                 '2/Step 2',
+                '2/Step 3',
+                '2/Step 4',
+                '2/Step 5',
+                '2/Step 6',
             ]
         },
         {
