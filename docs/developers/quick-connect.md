@@ -4,6 +4,10 @@ sidebar_position: 2
 
 # Quick Connect
 
+:::caution
+This document is currently in progress or contains incomplete sections. Please verify the accuracy of any information before use. For questions or concerns, please contact `contact@treasurenet.org`.
+:::
+
 ## Publicly Available Nodes
 
 **🥺 To be collected**

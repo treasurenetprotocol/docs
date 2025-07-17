@@ -14,6 +14,7 @@
 /** @type {import('@docusaurus/plugin-content-docs').SidebarsConfig} */
 const sidebars = {
     docs: [
+        'Litepaper/Litepaper',
         {
             type: 'category',
             label: 'About Treasurenet',
@@ -92,7 +93,7 @@ const sidebars = {
                     link: {
                         type: 'generated-index',
                         title: 'Tokenomics',
-                        description: 'The total supply of $UNIT tokens is finite, but the exact limit will vary depending on the future production of rare assets. This is because Treasurenet block rewards reduce over time. Producers work together to create RWAs to prevent $UNIT block rewards from decaying quickly. Whereas BTC reduces by 50% per period, $UNIT rewards reduce at a rate based on $TAT minted, hence asset produced. ',
+                        description: 'The total supply of $UNIT tokens is finite, but the exact limit will vary depending on the future production of rare assets. This is because Treasurenet block rewards reduce over time. Producers work together to create RWAs to prevent $UNIT block rewards from decaying quickly. Whereas BTC reduces by 50% per period, $UNIT rewards reduce at a rate based on $REP minted, hence asset produced. ',
                     },
                     items: [
                         'about/tokenomics/unit_token',
@@ -108,8 +109,7 @@ const sidebars = {
                         title: 'dApps Under Development',
                     },
                     items: [
-                        'about/dapps_under_development/ustn',
-                        'about/dapps_under_development/tn_dex',
+                        'about/dapps_under_development/TCash',
                         'about/dapps_under_development/use_cases',
                     ]
                 },
@@ -129,36 +129,9 @@ const sidebars = {
                     items: [
                         'fundamentals/wallets/metamask',
                         'fundamentals/wallets/coinbase',
-                        'fundamentals/wallets/keplr',
                     ]
                 },
                 'fundamentals/transfer-tokens',
-            ]
-        },
-        {
-            type: 'category',
-            label: 'USTN Finance Platform',
-            link: {
-                type: 'generated-index',
-                title: 'USTN Finance Platform',
-            },
-            items: [
-                'ustn/overview',
-                'ustn/financial-operations',
-                'ustn/qa'
-            ]
-        },
-        {
-            type: 'category',
-            label: 'Governance',
-            link: {
-                type: 'generated-index',
-                title: 'Governance',
-            },
-            items: [
-                'governance/overview',
-                'governance/dao-website',
-                'governance/community-pool',
             ]
         },
         {
@@ -173,10 +146,10 @@ const sidebars = {
                 'assets/connection_guidelines',
                 {
                     type: 'category',
-                    label: 'TAT Mint by Asset-Class',
+                    label: 'Minting Rep',
                     link: {
                         type: 'generated-index',
-                        title: 'TAT Mint by Asset-Class',
+                        title: 'Minting Rep',
                         description: 'Notice: Documentation is in progress. Further asset connections under development. Requirements may be adjusted via DAO Governance proposals.',
                     },
                     items: [
@@ -186,7 +159,7 @@ const sidebars = {
                             link: {
                                 type: 'generated-index',
                                 title: 'Pilot real-world connection',
-                                description: 'This is applicable for all quantifiable real-world assets to be connected, where $TAT records their respective market value of verifiable asset production.'
+                                description: 'This is applicable for all quantifiable real-world assets to be connected, where $REP records their respective market value of verifiable asset production.'
                             },
                             items: [
                                 'assets/tat_mint/production_audit',
@@ -204,6 +177,20 @@ const sidebars = {
                             items: [
                                 'assets/tat_mint/registration',
                                 'assets/tat_mint/wellmanagement',
+                                {
+                                    type: 'category',
+                                    label: 'Automatic Upload Tools',
+                                    link: {
+                                        type: 'generated-index',
+                                        title: 'Automatic Upload Tools',
+                                    },
+                                    items: [
+                                        'assets/tat_mint/production_data_intro',
+                                        'assets/tat_mint/production_data_process',
+                                        'assets/tat_mint/production_data_uploader',
+                                        'assets/tat_mint/production_data_manual'
+                                    ]
+                                },
                                 'assets/tat_mint/expense',
                                 'assets/tat_mint/mint',
                                 'assets/tat_mint/messages',
@@ -217,7 +204,7 @@ const sidebars = {
                     link: {
                         type: 'generated-index',
                         title: 'New Asset Workflow Registration',
-                        description: 'Treasurenet welcomes rare assets to join the network and generate corresponding TAT. Please contact Treasurenet Foundation through any communication channels.'
+                        description: 'Treasurenet welcomes rare assets to join the network and generate corresponding REP. Please contact Treasurenet Foundation through any communication channels.'
                     },
                     items: [
                         'assets/new_asset_workflow',
@@ -238,7 +225,8 @@ const sidebars = {
                     type: 'category',
                     label: 'Operation Guide',
                     items: [
-                        'staking/operation-guide/staking',
+                        'staking/operation-guide/staking-use-website',
+                        'staking/operation-guide/staking-use-code',
                         'staking/operation-guide/stakeboosting',
                     ],
 
@@ -261,7 +249,7 @@ const sidebars = {
                     items: [
                         'validators/concepts/validator-delegator',
                         'validators/concepts/becoming-a-validator',
-                        'validators/concepts/incentives',
+                        'validators/concepts/rewards',
                     ],
                 },
                 {
@@ -284,7 +272,8 @@ const sidebars = {
                 },
                 'validators/join-testnet',
                 'validators/join-mainnet',
-                /*'validators/faq',*/
+                'validators/create-your-gentx',
+                'validators/faq',
             ]
         },
         {
@@ -298,16 +287,6 @@ const sidebars = {
                 'developers/quick-connect',
                 'developers/tn-gateway',
                 'developers/clients',
-                {
-                    type: 'category',
-                    label: 'Guides',
-                    items: [
-                        'developers/guides/wallet-integration',
-                        'developers/guides/erc20',
-                        'developers/guides/trace-transactions',
-                        'developers/guides/query-balances'
-                    ]
-                },
                 {
                     type: 'category',
                     label: 'Localnet',
@@ -326,18 +305,38 @@ const sidebars = {
                 },
                 {
                     type: 'category',
-                    label: 'Treasurenet EVM Tooling',
+                    label: 'Javascript Libraries',
                     items: [
-                        'developers/ethereum-tooling/remix',
-                        'developers/ethereum-tooling/hardhat',
-                        'developers/ethereum-tooling/truffle',
-                    ]
-                },
-                {
-                    type: 'category',
-                    label: 'Client Libraries',
-                    items: [
-                        'developers/client-libraries/address-converter'
+                        {
+                            type:'link',
+                            label:'@treasurenet/address-converter',
+                            href:'https://www.npmjs.com/package/@treasurenet/address-converter'
+                        },
+                        {
+                            type:'link',
+                            label:'@treasurenet/proto',
+                            href:'https://www.npmjs.com/package/@treasurenet/proto'
+                        },
+                        {
+                            type:'link',
+                            label:'@treasurenet/provider',
+                            href:'https://www.npmjs.com/package/@treasurenet/provider'
+                        },
+                        {
+                            type:'link',
+                            label:'@treasurenet/eip712',
+                            href:'https://www.npmjs.com/package/@treasurenet/eip712'
+                        },
+                        {
+                            type:'link',
+                            label:'@treasurenet/transactions',
+                            href:'https://www.npmjs.com/package/@treasurenet/transactions'
+                        },
+                        {
+                            type:'link',
+                            label:'@treasurenet/hash',
+                            href:'https://www.npmjs.com/package/@treasurenet/hash'
+                        },
                     ]
                 },
                 {
@@ -357,50 +356,6 @@ const sidebars = {
         },
         {
             type: 'category',
-            label: 'For Protocol Devs',
-            link: {
-                type: 'generated-index',
-                title: 'For Protocol Devs',
-            },
-            items: [
-                'protocolDevelopers/overview',
-                {
-                    type: 'category',
-                    label: 'Basic Concepts',
-                    items: [
-                        'protocolDevelopers/concepts/accounts',
-                        'protocolDevelopers/concepts/transactions',
-                        'protocolDevelopers/concepts/encoding',
-                        'protocolDevelopers/concepts/gas-and-fees',
-                        'protocolDevelopers/concepts/multisig',
-                    ]
-                },
-                {
-                    type: 'category',
-                    label: 'Modules',
-                    items: [
-                        'protocolDevelopers/modules/overview',
-                        'protocolDevelopers/modules/auth',
-                        'protocolDevelopers/modules/bank',
-                        'protocolDevelopers/modules/mint',
-                        'protocolDevelopers/modules/staking',
-                        'protocolDevelopers/modules/slashing',
-                        'protocolDevelopers/modules/gov',
-                        'protocolDevelopers/modules/distribution'
-
-                    ]
-                },
-                {
-                    type: 'category',
-                    label: 'Genesis File',
-                    items: [
-                        'protocolDevelopers/genesis/genesis',
-                    ]
-                },
-            ]
-        },
-        {
-            type: 'category',
             label: 'Block Explorers',
             items: [
                 'blockExplorers/intro',
@@ -414,7 +369,7 @@ const sidebars = {
             label: 'Official Contracts',
             items: [
                 'api/officialContracts/tat',
-                'api/officialContracts/ustn',
+                'api/officialContracts/TCash',
                 'api/officialContracts/treasure-data',
                 'api/officialContracts/bid',
             ]

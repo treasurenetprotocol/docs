@@ -32,7 +32,7 @@ When allocating rewards, the operator of an active validator can deduct a portio
 - Additional rewards are allocated to block proposers based on the voting information contained in the block.
   - The percentage of additional rewards is determined by the voting information in the block and the BonusProposerReward parameter (default: 4%).
   - When all active validators have voted, and all votes are included in the block, the block proposer receives an increased percentage of additional rewards specified by the BonusProposerReward parameter.
-  - If validators have received delegations of TAT, the block proposer receives an increased percentage of additional rewards specified by TatReward (default: 80%).
+  - If validators have received delegations of `$REP`, the block proposer receives an increased percentage of additional rewards specified by TatReward (default: 80%).
 - After deducting the community tax, the base reward, and the additional reward of the block proposer, the remaining block rewards are distributed among all active validators (including the block proposer) based on their voting weight.
 - Validators deduct a certain percentage of the overall income as their commission, specified by the Commission parameter.
 - After deducting the commission, the remaining income is distributed among the validator's delegators based on their stake shares, and the validator's self-delegated amount is also included in this distribution.

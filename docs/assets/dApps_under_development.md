@@ -1,22 +1,22 @@
 # dApps Under Development
 
-## Stablecoin dApp - `USTN`
+## Stablecoin dApp - `TCash`
 
-`USTN` is a collateralized stablecoin dApp with savings and lending functions. To mint `USTN` stablecoin, users may collateralize various assets on Treasurenet or cross-chain using different networks’ assets. Users may exchange `$UNIT` for `USTN` when the system determines `USTN` supply-demand conditions are met. Additionally, `USTN`’s borrowing and saving functions allow users to get loans by paying interest or lending to earn interest.
+`TCash` is a collateralized stablecoin dApp with savings and lending functions. To mint `TCash` stablecoin, users may collateralize various assets on Treasurenet or cross-chain using different networks’ assets. Users may exchange `$UNIT` for `TCash` when the system determines `TCash` supply-demand conditions are met. Additionally, `TCash`’s borrowing and saving functions allow users to get loans by paying interest or lending to earn interest.
 
 ## Native Exchange dApp - TN DEX
 
-As Producers and dApps connect, there will be increased demand for transactions, particularly for RWAs. TN DEX is a decentralized exchange on Treasurenet to facili`$TAT`e automated market-making between Treasurenet assets and cross-chain assets.
+As Producers and dApps connect, there will be increased demand for transactions, particularly for RWAs. TN DEX is a decentralized exchange on Treasurenet to facilitate automated market-making between Treasurenet assets and cross-chain assets.
 
 ## Further Examples of Use Cases using Treasurenet
 
 ### Asset Financing Platform
 
-A decentralized lending platform where users can use their verified RWAs in using `$TAT` as both collaterals, to prevent repeated borrowings on the same assets, and as an on-chain gauge for repayment risk, to maximize loan-to-value ratio. The platform can automatically calculate the loan-to-value ratio and adjust interest rates based on the value and risk factors associated with each asset.
+A decentralized lending platform where users can use their verified RWAs in using `$REP` as both collaterals, to prevent repeated borrowings on the same assets, and as an on-chain gauge for repayment risk, to maximize loan-to-value ratio. The platform can automatically calculate the loan-to-value ratio and adjust interest rates based on the value and risk factors associated with each asset.
 
 ### Upgraded Real-World Asset NFT Marketplace
 
-A marketplace for tokenizing and trading non-fungible tokens (NFTs) representing real-world assets, such as gold, silver, gas, and oil, etc. Although the idea is not novel, an upgraded platform can leverage Treasurenet's asset value verification capabilities to ensure the quality of assets represented by NFTs. Economic production from these underlying assets may be tracked on-chain via `$TAT` and asset income may be distributed accordingly. An upgraded marketplace does not solely rely on a centralized promise that shares of underlying assets are ‘safe’. Investors are now able to transparently see the economic quality of such assets, on-chain.
+A marketplace for tokenizing and trading non-fungible tokens (NFTs) representing real-world assets, such as gold, silver, gas, and oil, etc. Although the idea is not novel, an upgraded platform can leverage Treasurenet's asset value verification capabilities to ensure the quality of assets represented by NFTs. Economic production from these underlying assets may be tracked on-chain via `$REP` and asset income may be distributed accordingly. An upgraded marketplace does not solely rely on a centralized promise that shares of underlying assets are ‘safe’. Investors are now able to transparently see the economic quality of such assets, on-chain.
 
 ### Decentralized Insurance Platform
 
@@ -24,11 +24,11 @@ A decentralized insurance platform that offers coverage for real-world assets ba
 
 ### Real-World Asset Leasing Platform
 
-A decentralized platform for leasing real-world assets. Users can tokenize their assets and offer them for lease on the platform, and lessees can make lease payments in cryptocurrencies or stablecoins. Underlying asset performance is tracked on-chain via `$TAT`, providing RWA performance clarity to all parties involved. The platform can use smart contracts to manage lease agreements and automatically execute payments based on predefined terms.
+A decentralized platform for leasing real-world assets. Users can tokenize their assets and offer them for lease on the platform, and lessees can make lease payments in cryptocurrencies or stablecoins. Underlying asset performance is tracked on-chain via `$REP`, providing RWA performance clarity to all parties involved. The platform can use smart contracts to manage lease agreements and automatically execute payments based on predefined terms.
 
 ### Commodities Marketplace
 
-A commodities-based marketplace could allow users to trade commodities more efficiently and transparently, reducing fraud risk. `$TAT`'s capabilities could help to track asset production and even logistics to provide a secure, transparent, and efficient blockchain-based platform for trading commodities.
+A commodities-based marketplace could allow users to trade commodities more efficiently and transparently, reducing fraud risk. `$REP`'s capabilities could help to track asset production and even logistics to provide a secure, transparent, and efficient blockchain-based platform for trading commodities.
 
 ### Industry-specific Layer 2
 

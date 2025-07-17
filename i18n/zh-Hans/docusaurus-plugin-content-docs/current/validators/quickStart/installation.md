@@ -48,6 +48,11 @@ Treasurenet 是一款非常快速的 POS 区块链，并且整体兼容以太坊
 
 检查是否正确安装
 
+:::caution
+如果发现系统报错 command not found 是因为我们没有设置全局变量，或者通过创建软连接的方式
+ln -s /user/local/bin/treasurenetd /root/go/bin/treasurenetd(参考)具体路径根据自己的实际情况来配置
+:::
+
 ```shell
     treasurenetd version
 ```
@@ -60,9 +65,6 @@ Treasurenet 是一款非常快速的 POS 区块链，并且整体兼容以太坊
 
 ```shell
     docker run -it -p 26657:26657 -p 26656:26656 -v ~/.treasurenetd/:/root/.treasurenetd tn/treasurenet:latest treasurenetd version
-
-    # To initialize
-    # docker run -it -p 26657:26657 -p 26656:26656 -v ~/.treasurenetd/:/root/.treasurenetd tn/treasurenetd:latest treasurenetd init test-chain --chain-id test_9000-2
 
     # To run
     # docker run -it -p 26657:26657 -p 26656:26656 -v ~/.treasurenetd/:/root/.treasurenetd tn/treasurenetd:latest treasurenetd start

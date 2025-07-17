@@ -4,6 +4,10 @@ sidebar_position: 6
 
 # Join main-net
 
+:::caution
+This document is currently in progress or contains incomplete sections. Please verify the accuracy of any information before use. For questions or concerns, please contact `contact@treasurenet.org`.
+:::
+
 :::info
 Development is in progress. Whitelisted Mainnet Validator nodes only at the moment.
 :::
@@ -40,7 +44,7 @@ cd $HOME
 git clone https://github.com/treasurenetprotocol/treasurenet.git
 cd treasurenet
 make install
-treasurenetd init [moniker] --chain-id treasurenet_9000-1
+treasurenetd init [moniker] --chain-id treasurenet_5005-1
 
 #Set minimum gas price & peers
 sed -i'' 's/minimum-gas-prices = ""/minimum-gas-prices = "0.0025aunit"/' $HOME/.treasurenetd/config/app.toml
@@ -123,7 +127,7 @@ treasurenetd keys add <validator> --keyring-backend file --algo info 2>> /data/v
 treasurenetd keys add <orchestrator> --keyring-backend file --algo info 2>> /data/orchestrator-phrase
 treasurenetd eth_keys add --keyring-backend test >> /data/validator-eth-keys
 treasurenetd init <Moniler_name> --chain-id tets_9000-1
-#修改配置文件设置对等节点
+#Modify configuration file settings for peer nodes
 ~/.treasurenetd/config/config.toml
 
 #######################################################

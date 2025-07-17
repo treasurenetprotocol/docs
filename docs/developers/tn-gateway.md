@@ -4,9 +4,13 @@ sidebar_position: 3
 
 # TN-Gateway
 
+:::caution
+This document is currently in progress or contains incomplete sections. Please verify the accuracy of any information before use. For questions or concerns, please contact `contact@treasurenet.org`.
+:::
+
 TN Gateway plays a crucial role in the Treasurenet blockchain public chain. It serves as a data provider for various peripheral tools, websites, and Dapps within the Treasurenet ecosystem through its Restful API interface. TN Gateway ensures the trustworthiness of the service caller's identity through interactive authentication using OAuth2.
 
-The data within TN-Gateway is sourced from the DataProvider Module. This module extracts and organizes data by monitoring events, conducting blockchain queries, and utilizing peripheral services like block browsers. The collected data is then stored in a database cluster on the server. TN-Gateway provides a wide range of data, including transaction records related to USTN Finance, staking activities, manufacturer and mineral information, production data, token transaction records, user information, and other relevant data. It also offers common indexes and statistical services for sorting.
+The data within TN-Gateway is sourced from the DataProvider Module. This module extracts and organizes data by monitoring events, conducting blockchain queries, and utilizing peripheral services like block browsers. The collected data is then stored in a database cluster on the server. TN-Gateway provides a wide range of data, including transaction records related to TCash Finance, staking activities, manufacturer and mineral information, production data, token transaction records, user information, and other relevant data. It also offers common indexes and statistical services for sorting.
 
 Developers of peripheral services and DApps can access these contents by following the specified calling rules outlined in the API documentation, once they have obtained the necessary permissions.
 

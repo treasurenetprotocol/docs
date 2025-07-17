@@ -4,22 +4,33 @@ sidebar_position: 1
 
 # Introduction
 
-Treasurenet Protocol is the first Layer 1 blockchain protocol that is creating an on-chain economic system, based on real-world rare assets.
+Treasurenet is a Layer 1 blockchain purpose-built to transform real-world activity into verified blockchain-native value.
 
-Treasurenet creates an audited, transparent, and secure way of interacting with real-world assets, paving the way for a more robust and reliable financial future in a truly decentralized manner with complete ownership and privacy.
+​​It captures physical output—such as energy generation, resource extraction, and manufacturing—and records it on-chain as verified data. This is made possible by a custom-built infrastructure designed to track, authenticate, and record physical output using smart contracts. 
 
-The core objective is to achieve complete integration between the digital and physical economies by introducing a hybrid medium of stored value called the **$UNIT** token. Through this, we aim to establish a unified WEB3 financial system that seamlessly combines the strengths of both digital and physical assets.
+At its core, Treasurenet is a system where action generates reputation, reputation mints currency, and currency unlocks liquidity. 
 
-_Note: Docs are under construction; Treasurenet Foundation welcomes discussion as we build in the open. Join the [Discord](https://discord.com/invite/treasurenet) here and [Telegram](https://t.me/Treasurenet_io) chat here._
 
-## Features
 
-&rarr; **Consensus built on Real-World Assets (RWA):** First Layer 1 blockchain built on the decentralized verification of RWA productivity, where the L1 network generates UNIT token rewards based on such RWA.
+🔁 # How it Works
 
-&rarr; **Scalability and Performance:** Designed for Solidity and RUST compatibility and low latency, Treasurenet ensures efficient handling of real-world assets on its blockchain, paving the way for broader adoption of decentralized asset management.
+At the core of Treasurenet’s design is a simple flow:
 
-&rarr; **RWA for UNIT Token Emission:** Treasurenet's protocol token, UNIT, has a finite and disinflationary supply. Block rewards emission rate is determined by RWA production rate.
+Verified work earns Rep Score
+ Your on-chain reputation, tied directly to real-world contribution.
 
-&rarr; **RWA for Bonus Block Rewards:** Treasurenet employs a unique validator selection process, where validator nodes are rewarded based not only on contributions to the network but also on real-world asset production.
 
-&rarr; **Decentralized Governance:** Treasurenet's DAO plays a crucial role in governing the platform, making decisions about key protocol parameters and interacting with the community via non-profit foundation.
+Rep Score mints UNIT
+ A disinflationary token used for governance and protocol rewards.
+
+
+UNIT can be collateralized to mint TCash
+ An alternate currency used across the ecosystem for lending, payments, and other DeFi use cases.
+
+Unlike traditional crypto models, Treasurenet does not rely on artificial scarcity. Value is created through proof of real work.
+
+##Why It Matters
+
+Treasurenet provides foundational infrastructure for Real-World Assets (RWA) and Decentralized Finance (DeFi).
+It enables a more transparent, equitable, and verifiable economy—powered by work that actually happened.
+We call it: Tokenizing Productivity.

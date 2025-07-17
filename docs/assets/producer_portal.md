@@ -1,6 +1,6 @@
 # Producer Portal
 
-Production Portal is an user interface that helps Producers onboard real-world assets and manage connected assets, in order to mint $TAT.
+Production Portal is an user interface that helps Producers onboard real-world assets and manage connected assets, in order to mint `$REP`.
 
 ## What can you do in the Production Portal?
 
@@ -14,12 +14,12 @@ Pilot real-world asset connections are natural gas and oil wells.
 
 **3. Upload asset output**
 
-Producers can report real-world production data directly to Treasurenet through the Producer Tools, and obtain the corresponding $TAT upon clearing the smart contract audit.
+Producers can report real-world production data directly to Treasurenet through the Producer Tools, and obtain the corresponding `$REP` upon clearing the smart contract audit.
 
 **4. Deposit $UNIT as collateral**
 
 Producers need to deposit some $UNIT as collateral to discourage large deviations between reported production and audited production results.
 
-**5. Mint TAT**
+**5. Mint `$REP`**
 
-Pending above steps 1 to 4, asset data smart contracts will conduct a production audit; applicable $TAT will be minted and sent to the Producer wallet address(es).
+Pending above steps 1 to 4, asset data smart contracts will conduct a production audit; applicable `$REP` will be minted and sent to the Producer wallet address(es).
