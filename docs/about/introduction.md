@@ -12,7 +12,7 @@ At its core, Treasurenet is a system where action generates reputation, reputati
 
 
 
-🔁 ## How it Works
+🔁 # How it Works
 
 At the core of Treasurenet’s design is a simple flow:
 
