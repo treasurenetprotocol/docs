@@ -74,8 +74,6 @@ const sidebars = {
             label: 'Network Role',
             items: [
                 '7/Network Role',
-                '7/Producers as Core Participants',
-                '7/Pilot Producers',
                 '7/How it works',
             ]
         },
@@ -92,7 +90,46 @@ const sidebars = {
             label: 'Validators',
             items: [
                 '9/Validators',
-                '9/How to become a Validator',
+                {
+                    type: 'category',
+                    label: 'How to become a Validator',
+                    items: [
+                        
+                        'validators/overview',
+                        {
+                            type: 'category',
+                            label: 'Concepts',
+                            items: [
+                                'validators/concepts/becoming-a-validator',
+                                'validators/concepts/validator-delegator',
+                                'validators/concepts/rewards',
+                            ]
+                        },
+                        {
+                            type: 'category',
+                            label: 'Quick Start',
+                            items: [
+                                'validators/quickStart/installation',
+                                'validators/quickStart/init',
+                                'validators/quickStart/treasurenetd',
+                                'validators/quickStart/run-a-node',
+                            ]
+                        },
+                        {
+                            type: 'category',
+                            label: 'Setup',
+                            items: [
+                                'validators/setup/configuration',
+                                'validators/setup/run-a-validator',
+                            ]
+                        },
+                        'validators/join-testnet',
+                        'validators/join-mainnet',
+                        'validators/create-your-gentx',
+                        'validators/sentry',
+                        'validators/faq',
+                    ]
+                },
             ]
         },
         {
@@ -120,7 +157,6 @@ const sidebars = {
             items: [
                 '12/How to Section',
                 '12/Wallet Setup',
-                '12/Transfer Tokens',
             ]
         },
     ],
