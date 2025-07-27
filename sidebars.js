@@ -155,7 +155,6 @@ const sidebars = {
             type: 'category',
             label: 'How to Section',
             items: [
-                '12/How to Section',
                 '12/Wallet Setup',
             ]
         },
