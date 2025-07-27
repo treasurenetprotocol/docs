@@ -46,7 +46,7 @@ const sidebars = {
             type: 'category',
             label: 'Litepaper',
             items: [
-                '4/Litepaper',
+                'Litepaper/Litepaper',
             ]
         },
         {
