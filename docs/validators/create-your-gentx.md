@@ -16,7 +16,7 @@ cd treasurenet-bin
 
 # the treasurenet chain binary itself
 
-wget https://https://github.com/treasurenetprotocol/treasurenet/releases/download/v1.0.0/treasurenetd-linux-amd64 # 链接地址暂时不能用有需要最新版本请于我们工作人员联系
+wget https://https://github.com/treasurenetprotocol/treasurenet/releases/download/v1.0.0/treasurenetd-linux-amd64 # The link address is temporarily unavailable. For the latest version, please contact our staff
 mv treasurenetd-linux-amd64 treasurenetd
 
 

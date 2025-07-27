@@ -74,7 +74,7 @@ treasurenetd start --x-crisis-skip-assert-invariants
 
 Node Operators can decide how much of historical state they want to preserve by choosing between Pruned, Default, and Archive. See the [Quicksync.io downloads](https://github.com/treasurenetprotocol/addrbook.json) (opens new window)for up-to-date snapshot sizes.
 
-下载最新版本的 treasurenetd 执行程序和 addrbook.json
+Download the latest version of treasurenetd executable and addrbook.json
 
 ### Unzip
 

@@ -16,8 +16,7 @@ Each explorer queries data relevant to its environment. The EVM Block Explorer q
 
 |                      | Type   | URL                                    |
 | -------------------- | ------ | -------------------------------------- |
-| EVM BlockExplorer    | evm    | https://evmexplorer.treasurenet.io/    |
-| Cosmos BlockExplorer | cosmos | https://cosmosexplorer.treasurenet.io/ |
+| EVM BlockExplorer    | evm    | https://scan.treasurenet.io/    |
 
 ### Test Net
 
