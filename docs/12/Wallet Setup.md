@@ -8,12 +8,16 @@ Choose one of the following wallet extensions and install it on a Chromium-based
 
 **MetaMask**
 
+**📹 Video Tutorial: [How to Download MetaMask](/img/video/DownloadMetaMask.mp4)**
+
 * Visit [metamask.io](https://metamask.io/)
 * Click Download \> Install MetaMask for Chrome
 * Approve installation prompts
 * A fox icon will appear in your browser toolbar 
 
 **Coinbase Wallet**
+
+**📹 Video Tutorial: [How to Download Coinbase Wallet](/img/video/DownloadCoinbase.mp4)**
 
 * isit the [Chrome Web Store](https://chromewebstore.google.com/)
 * earch for Coinbase Wallet
@@ -28,6 +32,8 @@ Automatic Setup (Recommended)
 
 The easiest way is through [Treasurenet’s official website](https://wallet.treasurenet.io), which will detect your wallet and walk you through connection and account creation.
 
+**📹 Video Tutorial: [How to Connect to Treasurenet](/img/video/ConnectToTreasurenet.mp4)**
+
 **Manual Setup**
 
 To manually add Treasurenet networks:
@@ -37,10 +43,10 @@ Open your wallet → Settings → Networks → Add Network and enter the followi
 Mainnet (Production)
 
 * Network Name: Treasurenet Mainnet Alpha  
-* RPC URL: https://wallet.treasurenet.io  
-* Chain ID: 5002  
+* RPC URL: https://rpc.treasurenet.io  
+* Chain ID: 5570  
 * Currency Symbol: UNIT  
-* Block Explorer URL: https://evmexplorer.treasurenet.io
+* Block Explorer URL: https://scan.treasurenet.io/
 
 Testnet (Development)
 
@@ -56,6 +62,8 @@ Once added, select the desired network to activate it.
 
 If you're using MetaMask and want to import an existing wallet:
 
+**📹 Video Tutorial: [How to Import MetaMask Account](/img/video/ImportMetaMaskAccount.mp4)**
+
 1. Click the MetaMask icon
 
 2. Go to your avatar \> Import Account
@@ -69,6 +77,8 @@ Your account will now be visible in the wallet.
 **4\. Importing Treasurenet Tokens**
 
 To display $REP in your wallet:
+
+**📹 Video Tutorial: [How to Import REP Token](/img/video/ImportREP.mp4)**
 
 MetaMask
 
