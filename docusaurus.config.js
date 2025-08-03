@@ -131,7 +131,6 @@ const config = {
                         position: 'left',
                         label: 'API',
                     },*/
-                    {to: '/blog', label: 'Blog', position: 'left'},
                     {
                         type: 'dropdown',
                         label: 'Network',
@@ -178,47 +177,14 @@ const config = {
                                 href: 'https://www.treasurenet.io',
                             },
                             {
-                                label: 'Treasurenet Faucet',
-                                href: 'https://faucet.treasurenet.io',
-                            },
-                            {
-                                label: 'Producer Cert',
-                                href: 'https://mplatform.treasurenet.io',
-                            },
-                            {
                                 label: 'Service Platform',
                                 href: 'https://splatform.treasurenet.io',
                             },
                         ],
                     },
                     {
-                        title: 'Community',
-                        items: [
-                            {
-                                label: 'Stack Overflow',
-                                href: 'https://stackoverflow.com/questions/tagged/docusaurus',
-                            },
-                            {
-                                label: 'Discord',
-                                href: 'https://discord.com/channels/990530508834340905/990530510746964004',
-                            },
-                            {
-                                label: 'Twitter',
-                                href: 'https://twitter.com/treasurenet_io',
-                            },
-                            {
-                                label: 'Telegram',
-                                href: 'https://t.me/+hN6G5mGAlD8xMmI5',
-                            }
-                        ],
-                    },
-                    {
                         title: 'Others',
                         items: [
-                            {
-                                label: 'Blog',
-                                to: '/blog',
-                            },
                             {
                                 label: 'GitHub',
                                 href: 'https://github.com/treasurenetprotocol',
