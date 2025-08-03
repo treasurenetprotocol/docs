@@ -18,7 +18,11 @@
 .env.development.local
 .env.test.local
 .env.production.local
+.env
 package-lock.json
+
+# Cloudflare
+.wrangler
 
 npm-debug.log*
 yarn-debug.log*
