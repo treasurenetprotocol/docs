@@ -31,7 +31,7 @@ This estimate is based on the following highlighted assumptions. However, it is 
 
 We assume the first 3 periods’ growth rate to be `500%`, as we develop more RWA connections.
 
-Then, the steady-s`$TAT`e growth rate be modeled as a PERT Distribution,
+Then, the steady-state growth rate be modeled as a PERT Distribution,
 defined by - `50%` as the low expected rate, `15%` as the expected rate, and `500%` as the maximum expected rate.
 
 When simulated for 500 periods, UNIT supply may resemble this following distribution. For complete details, please stay tuned for the further releases.
@@ -45,10 +45,10 @@ After determining the total block reward, each block reward is awarded to Active
 |        | Active Validator node | Active Super Validator node                 |
 | ------ | --------------------- | ------------------------------------------- |
 | Apple  | Red                   | USA                                         |
-| Action | Stakes `$UNIT`        | -Stakes `$UNIT` -Bids `$TAT` (burns `$TAT`) |
+| Action | Stakes `$UNIT`        | -Stakes `$UNIT` -Bids `$REP` (burns `$REP`) |
 | Reward | Base Rewards          | Base Rewards; Super Validator Rewards       |
 
-`$UNIT` holders can stake `$UNIT` into any of the nodes to share in proportional Base Rewards. $`$TAT` holders can bid $`$TAT` as well to share in proportional Super Validator Rewards, which is the Bonus Stake described in Core Concepts.
+`$UNIT` holders can stake `$UNIT` into any of the nodes to share in proportional Base Rewards. `$REP` holders can bid `$REP` as well to share in proportional Super Validator Rewards, which is the Bonus Stake described in Core Concepts.
 
 In the long run, we estimate Super Validator Rewards make up for about ~30% of the block rewards.
-The magnitude of Super Validator Rewards varies based on how competitive the $`$TAT` bids are between nodes, and based on how many Super Validators are there. Details to be further described in future release.
+The magnitude of Super Validator Rewards varies based on how competitive the `$REP` bids are between nodes, and based on how many Super Validators are there. Details to be further described in future release.

@@ -1,0 +1,9 @@
+# Other Use Cases
+
+* **Asset Financing Platform:** A decentralized lending hub where users can leverage verified RWAs using Rep as both collateral and a risk gauge. No double-borrowing tricks — one asset, one loan. Rep also powers dynamic loan-to-value ratios and interest rates, fully automated. No middlemen. Just transparent, on-chain finance.  
+* **RWA NFT Marketplace:** Tokenize assets like gold, silver, or oil. Unlike traditional NFT platforms, Treasurenet validates asset productivity using Rep. Earnings are tracked on-chain, offering true transparency.  
+* **Decentralized Insurance:** Cover your RWAs without corporate gatekeepers. Smart contracts, powered by real-world data from Treasurenet, handle claims and payouts.Policyholders get fair coverage without reliance on centralized insurers.  
+* **RWA Leasing Platform:** Tokenize your asset, lease it out, and get paid in crypto or stablecoins. Rep tracks asset performance on-chain, giving everyone full visibility. No disputes. Just automated, smart-contract-managed leasing.  
+* **Commodities Marketplace:** Trade commodities on a fraud-proof, blockchain-based exchange. Rep tracks every movement, from production to delivery. No dodgy intermediaries. Just transparent trading.  
+* **Bet on Real Value:** With Rep measuring real-world productivity, derivatives trading becomes clearer and safer. No shady metrics — just actual data, straight from the source.  
+* **Layer 2, Built For You:** Industries are different. Treasurenet gets it. Custom Layer 2s ensure oracles deliver the right data for the right market. No fluff. Just actionable insights.

@@ -60,7 +60,7 @@
     "description": "The label of footer link with label=GitHub linking to https://github.com/treasurenetprotocol"
   },
   "copyright": {
-    "message": "Copyright © 2023 Treasurenet Foundation, Inc.",
+    "message": "Copyright © 2024 Treasurenet Foundation, Inc.",
     "description": "The footer copyright"
   }
 }

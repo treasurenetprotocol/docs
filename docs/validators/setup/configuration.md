@@ -10,7 +10,7 @@ The configuration file for Treasurenet can be found at the path `$HOME/.treasure
 treasurenetd config <key> [value]
 eg:
 treasurenetd config keyring-backend test
-treasurenetd config chain-id treasurenet_9000-1
+treasurenetd config chain-id treasurenet_5005-1
 ....
 ```
 
@@ -426,7 +426,7 @@ If create_empty_blocks is set to true in your config, blocks will be created ~ e
 
 E.g. timeout_commit = "10s" should result in ~ 10 second blocks.
 
-create_empty_blocks = false
+### create_empty_blocks = false
 
 In this setting, blocks are created when transactions received.
 

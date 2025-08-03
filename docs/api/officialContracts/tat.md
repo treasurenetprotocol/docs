@@ -2,16 +2,16 @@
 sidebar_position: 2
 ---
 
-# TAT(ERC20)
+# `$REP`(ERC20)
 
-合约信息
+Contract Information
 
 |Environment|Address|ABI File|
 |--|--|--|
 |testnet|--|[📥](http://)|
 |mainnet|--|[📥](http://)|
 
-## 查询TAT发行量
+## Check `$REP` Releases
 
 - Function: **totalSupply**
 - Type: **Query**
@@ -20,10 +20,10 @@ Result
 
 |parameter name|type|description|
 |--|--|--|
-|amount|uint256|TAT Token 总额|
+|amount|uint256|Total `$REP` Token amount|
 
 
-## 查询账户TAT余额
+## Check Account `$REP` Balance
 
 - Function: **balanceOf**
 - Type: **Query**
@@ -32,15 +32,15 @@ Input
 
 |parameter name|type|description|
 |--|--|--|
-|tokenOwner|address|待查询的账户|
+|tokenOwner|address|Account to be checked|
 
 Result
 
 |parameter name|type|description|
 |--|--|--|
-|amount|uint256|账户余额|
+|amount|uint256|Account balance|
 
-## 转账
+## Transfer
 
 - Function: **transfer**
 - Type: **Transaction**
@@ -49,16 +49,16 @@ Input
 
 |parameter name|type|description|
 |--|--|--|
-|to|address|接收Token的账户地址|
-|amount|uint256|转账数量|
+|to|address|Recipient account address|
+|amount|uint256|Transfer amount|
 
 Result
 
 |parameter name|type|description|
 |--|--|--|
-|result|boolean|正确执行返回true|
+|result|boolean|Returns true when executed correctly|
 
-## Token持有者将部分Token委托给指定消费者代为消费
+## Token holder delegates part of tokens to specified consumer for consumption
 
 - Function: **approve**
 - Type: **Transaction**
@@ -67,16 +67,16 @@ Input
 
 |parameter name|type|description|
 |--|--|--|
-|spender|address|被授权的账户地址|
-|amount|uint256|授权数量|
+|spender|address|Authorized account address|
+|amount|uint256|Authorization amount|
 
 Result
 
 |parameter name|type|description|
 |--|--|--|
-|result|boolean|正确执行返回true|
+|result|boolean|Returns true when executed correctly|
 
-## 查询委派代为消费的余额
+## Query delegated consumption balance
 
 - Function: **allowance**
 - Type: **Query**
@@ -85,16 +85,16 @@ Input
 
 |parameter name|type|description|
 |--|--|--|
-|tokenOwner|address|Token实际拥有者账户地址|
-|spender|address|代理者的账户地址|
+|tokenOwner|address|Token actual owner account address|
+|spender|address|Agent account address|
 
 Result
 
 |parameter name|type|description|
 |--|--|--|
-|amount|boolean|剩余token数量|
+|amount|boolean|Remaining token amount|
 
-## 委派的消费者进行转账
+## Delegated consumer performs transfer
 
 - Function: **transferFrom**
 - Type: **Transaction**
@@ -103,11 +103,11 @@ Input
 
 |parameter name|type|description|
 |--|--|--|
-|from|address|Token发送方地址|
-|to|address|Token接收方地址|
+|from|address|Token sender address|
+|to|address|Token recipient address|
 
 Result
 
 |parameter name|type|description|
 |--|--|--|
-|result|boolean|正确执行返回true|
+|result|boolean|Returns true when executed correctly|
