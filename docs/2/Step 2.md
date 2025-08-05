@@ -1,6 +1,6 @@
 # Step 2: Data is Captured via the TN Gateway
 
-<img src="/img/docs/HowTreasurenetWorks/set2.png" alt="System Flow" width="600" height="100" />
+<img src="/img/docs/HowTreasurenetWorks/set2.jpg" alt="System Flow" width="800" height="200" />
 
 The **TN Gateway** is Treasurenet’s decentralized API layer, designed to bridge real-world data sources with on-chain smart contracts. It enables the seamless flow of production data, staking activity, dApp interactions, and token movements.
 

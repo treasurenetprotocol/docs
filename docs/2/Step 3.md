@@ -1,6 +1,6 @@
 # Step 3: Verify Output with Asset Modules + Oracles
 
-<img src="/img/docs/HowTreasurenetWorks/set3.png" alt="System Flow" width="400" height="100" />
+<img src="/img/docs/HowTreasurenetWorks/set3.jpg" alt="System Flow" width="800" height="400" />
 
 Treasurenet uses modular validation logic to accurately assess real-world productivity. Different asset classes require different verification methods—so the protocol relies on specialized **Asset Data Modules**, paired with **Oracle-based audits**, to ensure integrity at scale.
 

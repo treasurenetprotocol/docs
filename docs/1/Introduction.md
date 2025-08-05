@@ -29,7 +29,7 @@ Unlike traditional crypto models, Treasurenet **does not rely on artificial scar
 
 Every economic action in Treasurenet flows through a clear loop:
 
-![System Flow](/img/docs/Introduction/introduction.png)
+![System Flow](/img/docs/Introduction/introduction.jpg)
 
 ### **Why It Matters**
 

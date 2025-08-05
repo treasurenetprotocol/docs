@@ -11,8 +11,8 @@
 
 4. **If verified → REP Score is minted**  
     The producer earns an on-chain reputation tied directly to their proven contribution.
-
-  <img src="/img/docs/NetworkRole/HowItWorks.png" alt="System Flow" width="300" height="200" />
+    
+  <img src="/img/docs/NetworkRole/HowItWorks.jpg" alt="System Flow" width="700" height="200" />
 
 
 ✅ This process is **modular**, **private by design**, and **fully decentralized**.

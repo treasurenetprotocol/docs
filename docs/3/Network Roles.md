@@ -8,12 +8,7 @@ There are three primary roles in the Treasurenet ecosystem:
 * Validators – secure the network and validate blocks   
 * Delegators – stake tokens and share in network reward
 
-## How These Roles Work Together
 
-| Role | Function | Rewarded With  |
-| :---- | :---- | :---- |
-| Producer | Generates real-world output | REP Score→ $UNIT  |
-| Validator | Secures the network  | Block rewards \+ fees |
-| Delegator | Supports validators with stake | Share of validator yield  |
+ <img src="/img/docs/NetworkRoles/b4.jpg" alt="System Flow" width="800" height="200" />
 
 **Detailed breakdowns for each role are provided in the subsequent technical documentation.**

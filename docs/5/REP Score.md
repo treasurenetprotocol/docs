@@ -31,13 +31,7 @@ The process:
 
 ### **What REP Unlocks**
 
-| Use Case | Description |
-| :---- | :---- |
-| Minting $UNIT | Determines how much $UNIT a Producer can generate |
-| Bidding Bonus Stake | REP can be burned to qualify for higher validator rewards |
-| Credit Access via $TCash | Higher REP increases borrowing capacity |
-| Governance Participation | REP May be used in future DAO votes or through whitelisting |
-| On-Chain Identity | REP builds a track record of productivity over time |
+<img src="/img/docs/TokenomicsOverview/b5.jpg" alt="System Flow" width="800" height="400" />
 
 ### **Asset-Class Specific Indexing**
 Each REP score is tagged by what was produced.

@@ -4,13 +4,7 @@
 
 This distribution ensures that the people building and supporting Treasurenet—validators, developers, and early users—have a real stake in its success. Lower barriers to entry mean more room for innovation and participation from Day 0\.
 
-| Category | Allocation | Description |
-| :---- | :---- | :---- |
-| Community Airdrop | 40.25% | Distributed to early users and contributors |
-| Founding Investors | 20% | Allocated to strategic, long-term-aligned backers |
-| Protocol Reserve | 23% | Reserved for future DAO programs and liquidity incentives |
-| Team Reserve | 10% | Subject to vesting, aligned with long-term performance |
-| Early Producers | 6.75% | Awarded to contributors in the pre-launch phase |
+<img src="/img/docs/TokenomicsOverview/B6.jpg" alt="System Flow" width="800" height="200" />
 
 <img src="/img/docs/TokenomicsOverview/GenesisOfUnit.png" alt="System Flow" width="600" height="400" />
 

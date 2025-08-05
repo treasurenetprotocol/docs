@@ -19,12 +19,8 @@ Producers are the link between these layers.
 
 **What Qualifies as a Producer?**
 
-To qualify, your asset must meet two conditions:
 
-| Requirement  | Description |
-| :---- | :---- |
-| Measureable  | Captured by hardware sensors or software logs |
-| Market-priced | Has a public market price (oracle compatible) |
+ <img src="/img/docs/NetworkRole/B7.jpg" alt="System Flow" width="800" height="200" />
 
 **If yes → you’re eligible to earn REP and participate in Treasurenet’s token economy.**
 
