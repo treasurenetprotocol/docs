@@ -34,9 +34,9 @@ Treasurenet creates a new category in the blockchain ecosystem:
 
 **Our asset-based consensus mechanism, recognized with an 'A' rating by the World Intellectual Property Organization, fundamentally reimagines how digital currency is created**—not from energy use or financial collateral, but from verified real-world productivity.
 
-![][image2]
+<img src="/img/docs/Litepaper/diagram--1.jpg" alt="System Flow" width="800" height="100" />
 
-![][image3]
+<img src="/img/docs/Litepaper/diagrams-7.jpg" alt="System Flow" width="800" height="100" />
 
 ## **System Design: How Treasurenet Works**
 
@@ -79,7 +79,7 @@ Treasurenet is built using **Cosmos SDK, Ethermint, and Tendermint Core**, runni
 
 Treasurenet protocol connects physical world productivity with digital financial systems through an integrated layered architecture. Each layer serves a specific purpose while working cohesively to create a sustainable ecosystem.
 
-![][image4]
+<img src="/img/docs/Litepaper/diagrams-3.jpg" alt="System Flow" width="800" height="100" />
 
 ## **1. Protocol Architecture**
 
@@ -184,11 +184,11 @@ Here's the Target Rate Mechanism Flow:
 * **Target Rate Assessment:** Each period, Treasurenet compares actual RWA production rates to a Target Rate set by the DAO Governance.  
 * **Block Reward Adjustment:** Based on this comparison, block rewards are reduced within a defined range to maintain economic balance.
 
-![][image5]
+<img src="/img/docs/Litepaper/diagram--2.jpg" alt="System Flow" width="800" height="100" />
 
 ### **2.5 The Three Scenarios of Token Generation**
 
-![][image6]
+<img src="/img/docs/Litepaper/diagrams-4.jpg" alt="System Flow" width="800" height="100" />
 
 **1. Falling Short of Target**
 
@@ -221,7 +221,7 @@ Rewards are allocated to two categories of nodes:
 
 Super Validator Rewards are projected to represent **30% of total block rewards**. Competitiveness in Rep bids and node participation will determine actual allocation.
 
-![][image7]
+<img src="/img/docs/Litepaper/diagrams-5.jpg" alt="System Flow" width="800" height="100" />
 
 ### **2.7 Key Parameters:**
 
