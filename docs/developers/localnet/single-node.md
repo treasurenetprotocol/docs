@@ -59,7 +59,7 @@ By default, all these configuration files are in ~/.treasurenetd, but you can ov
 
 #### Adding Genesis Accounts
 
-Before starting the chain, you need to populate the status to at least one account using [keyring](https://)：
+Before starting the chain, you need to populate the status to at least one account using [keyring](#)：
 
 ```shell
 treasurenetd keys add my_validator

@@ -92,10 +92,10 @@ sed -i.bak -e "s/^seeds =.*/seeds = \"$SEEDS\"/" ~/.treasurenetd/config/config.t
 
 #### Add Persistent Peers
 
-We can set the persistent_peers field in `$HOME/.treasurenetd/config/config.toml` to specify the peers with which your node will maintain [persistent_peers](https://docs.tendermint.com/v0.34/tendermint-core/using-tendermint.html#Persistent-Peer). You can retrieve them from the list of available peers on [testnets](https://)repo.
+We can set the persistent_peers field in `$HOME/.treasurenetd/config/config.toml` to specify the peers with which your node will maintain [persistent_peers](https://docs.tendermint.com/v0.34/tendermint-core/using-tendermint.html#Persistent-Peer). You can retrieve them from the list of available peers on [testnets](#) repo.
 
 A list of available persistent peers is also provided in the #find-peers channel of
-[Treasurenet Discord](https://). You can get 10 random entries from the peers.txt file in the PEERS variable by running the following command:
+[Treasurenet Discord](#). You can get 10 random entries from the peers.txt file in the PEERS variable by running the following command:
 
 :::info
 Treasurenet Discord comming soon.

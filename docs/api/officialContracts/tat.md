@@ -8,8 +8,8 @@ Contract Information
 
 |Environment|Address|ABI File|
 |--|--|--|
-|testnet|--|[📥](http://)|
-|mainnet|--|[📥](http://)|
+|testnet|--|[📥](#)|
+|mainnet|--|[📥](#)|
 
 ## Check `$REP` Releases
 
