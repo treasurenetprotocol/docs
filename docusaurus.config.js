@@ -1,10 +1,9 @@
 // @ts-check
 // Note: type annotations allow type checking and IDEs autocompletion
 
-const lightCodeTheme = require('prism-react-renderer/themes/github');
-const darkCodeTheme = require('prism-react-renderer/themes/dracula');
-const math = require('remark-math');
-const katex = require('rehype-katex');
+const {themes} = require('prism-react-renderer');
+const lightCodeTheme = themes.github;
+const darkCodeTheme = themes.dracula;
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
@@ -23,17 +22,17 @@ const config = {
         defaultLocale: 'en',
         locales: ['en'],
     },
-    themes:[
-        [
-            require.resolve("@easyops-cn/docusaurus-search-local"),
-            ({
-                indexPages: true,
-                language: ['en'],
-                hashed: true,
-
-            }),
-        ]
-    ],
+    // themes:[
+    //     [
+    //         require.resolve("@easyops-cn/docusaurus-search-local"),
+    //         ({
+    //             indexPages: true,
+    //             language: ['en'],
+    //             hashed: true,
+    //             docsRouteBasePath: '/docs',
+    //         }),
+    //     ]
+    // ],
     presets: [
         [
             '@docusaurus/preset-classic',
@@ -61,8 +60,6 @@ const config = {
                     showLastUpdateAuthor: true,
                     showLastUpdateTime: true,
                     sidebarCollapsible: true,
-                    remarkPlugins: [math],
-                    rehypePlugins: [katex],
                 },
                 blog: {
                     showReadingTime: false,

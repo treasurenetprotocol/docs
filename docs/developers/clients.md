@@ -34,7 +34,7 @@ See the list of supported gRPC-Gateway API endpoints for the Treasurenet testnet
 
 ## Ethereum JSON-RPC
 
-Treasurenet supports most of the standard [JSON-RPC APIs](https://) to connect with existing Ethereum-compatible web3 tooling.
+Treasurenet supports most of the standard [JSON-RPC APIs](#) to connect with existing Ethereum-compatible web3 tooling.
 
 ## Ethereum Websocket
 

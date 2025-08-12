@@ -20,50 +20,50 @@ _<center>Logic similar to BTC supply, where block reward reduces so the block re
 
 _<center>However for TN, supply is determined by future asset production. Disfinationary means emission slows down year-on-year.</center>_
 
-Period $n$ block reward $r$ is defined:
+Period n block reward r is defined:
 
-$$
-r_n=f_n \times r_{n-1}
-$$
+```
+r_n = f_n × r_{n-1}
+```
 
-Block reward factor ($f$) in period $n$ is set:
+Block reward factor (f) in period n is set:
 
-$$
-50\% \leq f_n \leq 90\%
-$$
+```
+50% ≤ f_n ≤ 90%
+```
 
 
 <small><center>Block reward will be reduced by 1% (where f=99%) to 50% (where f=50%)</center></small>
 
 <br/>
 
-**To determine $f_n$ , TN compares REP minted between 2 previous periods where, a delta ($d$) is defined for period $n$:**
+**To determine f_n, TN compares REP minted between 2 previous periods where, a delta (d) is defined for period n:**
 
 <br/>
 
-$$
-d_n = \frac{\frac{REP_{from \space period \space n-1}}{REP_{from \space period \space n-2}}}{1+g}
-$$
+```
+d_n = REP_from_period_n-1 / REP_from_period_n-2 ÷ (1+g)
+```
 
 <small><center>Delta (d) looks back at 2 previous periods，period n-1 and period n-2 to determine d.</center></small>
 
 <br/>
 
-- Where, asset production goal ($g$) is set to 10% by default. $g$ may be changed by **DAO**.
+- Where, asset production goal (g) is set to 10% by default. g may be changed by **DAO**.
 
-    + When $d_n=0$, $f_n$=50%;
+    + When d_n = 0, f_n = 50%;
 
       _This is the maximum reduction scenario where there is no new REP_
 
-    + When $0<d_n<1$, $f_n$ is scaled, so that 75% $\leq f_n \leq 90$%.
+    + When 0 &lt; d_n &lt; 1, f_n is scaled, so that 75% ≤ f_n ≤ 90%.
 
-      _Specifically,_ $f_n=0.75+[(0.9-0.75)]d_n$
+      _Specifically,_ f_n = 0.75 + [(0.9-0.75)] × d_n
 
-    + When  $d_n \geq 1$, $f_n$ is scaled, so that 90%<$f_n$<99%
+    + When d_n ≥ 1, f_n is scaled, so that 90% &lt; f_n &lt; 99%
 
-      _Specifically,_ $f_n=MIN(0.99, 0.01*ROUNDDOWN(d_n-1)+0.9)$
+      _Specifically,_ f_n = MIN(0.99, 0.01 × ROUNDDOWN(d_n-1) + 0.9)
 
-    + Note that when $d_n \geq 10, f_n$=99%
+    + Note that when d_n ≥ 10, f_n = 99%
 
       _This is the minimum reduction scenario where there are more than 10x new REP_
 
@@ -96,36 +96,36 @@ $$
 
       _Selected 10% so that goal is easily attainable early on._
 
-_UNIT emission is almost like a game, where **High** asset production, with respect to a production goal, keeps block reward factor $f$ **high**, but a **failure** will cause a reward ‘**halving**’ event._
+_UNIT emission is almost like a game, where **High** asset production, with respect to a production goal, keeps block reward factor f **high**, but a **failure** will cause a reward '**halving**' event._
 
 
 ## Block Reward
 
-Recall that in period n, the block reward ($r$) is: $r_n$
+Recall that in period n, the block reward (r) is: r_n
 
-Block reward $r_n$ is split into default values and emitted to recipients:
+Block reward r_n is split into default values and emitted to recipients:
 
-$$
-r_n=CMP+PR+SVR+BR
-$$
+```
+r_n = CMP + PR + SVR + BR
+```
 
-- Community Pool  $CMP$
+- Community Pool (CMP)
 
-  $CMP$=1%
+  CMP = 1%
 
-- Proposer Reward   $PR$
+- Proposer Reward (PR)
 
-  $PR \leq 5$%
+  PR ≤ 5%
 
-- Super Validator Reward   $SVR$
+- Super Validator Reward (SVR)
 
-  $SVR=SVF  \times \frac{of \space Active \space Super \space Validators}{of \space all \space Active \space Validators}  \times r$
+  SVR = SVF × (Active Super Validators / All Active Validators) × r
   
-  _$SVF=60$% Super Validator Factor determines the Super Validator Reward_
+  _SVF = 60% Super Validator Factor determines the Super Validator Reward_
 
-- Base Reward   $BR$
+- Base Reward (BR)
 
-  $BR$=100%$-CMP-PR-SVR$
+  BR = 100% - CMP - PR - SVR
 
-  $BR \leq 34$%
+  BR ≤ 34%
 
