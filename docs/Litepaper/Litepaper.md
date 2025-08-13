@@ -34,9 +34,17 @@ Treasurenet creates a new category in the blockchain ecosystem:
 
 **Our asset-based consensus mechanism, recognized with an 'A' rating by the World Intellectual Property Organization, fundamentally reimagines how digital currency is created**—not from energy use or financial collateral, but from verified real-world productivity.
 
-<img src="/img/docs/Litepaper/diagram--1.jpg" alt="System Flow" width="800" height="100" />
+<img src="/img/docs/Litepaper/diagrams-1.jpg" 
+     alt="Asset-based consensus flow diagram"
+     width="800" 
+     style={{height: 'auto'}}
+     loading="lazy" />
 
-<img src="/img/docs/Litepaper/diagrams-7.jpg" alt="System Flow" width="800" height="100" />
+<img src="/img/docs/Litepaper/diagrams-7.jpg" 
+     alt="Validator reward distribution diagram"
+     width="800" 
+     style={{height: 'auto'}}
+     loading="lazy" />
 
 ## **System Design: How Treasurenet Works**
 
@@ -79,7 +87,11 @@ Treasurenet is built using **Cosmos SDK, Ethermint, and Tendermint Core**, runni
 
 Treasurenet protocol connects physical world productivity with digital financial systems through an integrated layered architecture. Each layer serves a specific purpose while working cohesively to create a sustainable ecosystem.
 
-<img src="/img/docs/Litepaper/diagrams-3.jpg" alt="System Flow" width="800" height="100" />
+<img src="/img/docs/Litepaper/diagrams-3.jpg" 
+     alt="System Flow" 
+     width="800" 
+     style={{height: 'auto'}}
+     loading="lazy" />
 
 ## **1. Protocol Architecture**
 
@@ -184,11 +196,19 @@ Here's the Target Rate Mechanism Flow:
 * **Target Rate Assessment:** Each period, Treasurenet compares actual RWA production rates to a Target Rate set by the DAO Governance.  
 * **Block Reward Adjustment:** Based on this comparison, block rewards are reduced within a defined range to maintain economic balance.
 
-<img src="/img/docs/Litepaper/diagram--2.jpg" alt="System Flow" width="800" height="100" />
+<img src="/img/docs/Litepaper/diagram--2.jpg" 
+     alt="System Flow" 
+     width="800" 
+     style={{height: 'auto'}}
+     loading="lazy" />
 
 ### **2.5 The Three Scenarios of Token Generation**
 
-<img src="/img/docs/Litepaper/diagrams-4.jpg" alt="System Flow" width="800" height="100" />
+<img src="/img/docs/Litepaper/diagrams-4.jpg" 
+     alt="System Flow" 
+     width="800" 
+     style={{height: 'auto'}}
+     loading="lazy" />
 
 **1. Falling Short of Target**
 
@@ -221,7 +241,11 @@ Rewards are allocated to two categories of nodes:
 
 Super Validator Rewards are projected to represent **30% of total block rewards**. Competitiveness in Rep bids and node participation will determine actual allocation.
 
-<img src="/img/docs/Litepaper/diagrams-5.jpg" alt="System Flow" width="800" height="100" />
+<img src="/img/docs/Litepaper/diagrams-5.jpg" 
+     alt="System Flow" 
+     width="800" 
+     style={{height: 'auto'}}
+     loading="lazy" />
 
 ### **2.7 Key Parameters:**
 
@@ -370,22 +394,31 @@ Returns are generated and streamed based on actual productivity. The stronger th
 # **Strategic Roadmap and Development Path** 
 
 ## **Q2 2025**
+**LAUNCH THE CORE ECOSYSTEM**
 
-* TGE launches April 28th with UNIT and TCash on Uniswap  
-* Launching native dApp that mirrors real world yield.   
-* Release of Rep 2.0 enabling permissionless asset connections
+* Token Generation Event (TGE) for Unit & TCash
+* Community Unlock token distribution
+* Deploy cross-chain bridge to Ethereum
 
 ## **Q3 2025**
+**ENABLE REAL-WORLD-LINKED FLOWS**
 
-* Bitcoin miners can begin logging their hashwork on TN Gateway and become producers  
-* Asset onboarding proposals go live  
-* Testnet events and hackathons for developers  
-* Expanded producer network
+* Launch dApp for activity-based distribution cycles
+* Open community proposals for new asset onboarding
+* Run Testnet and dev challenges to stress test and scale the network
 
 ## **Q4 2025**
+**DESIGN FOR SCALE**
 
-* Custom L2 solutions for specific asset classes  
-* Expanded cross-chain integrations
+* Begin R&D for asset-specific infrastructure solutions
+* Enable asset validation across multiple networks
+* Gather community feedback on scaling strategy
+
+## 2026 Roadmap
+**EXPANSION & ENTERPRISE INTEGRATION**
+
+* Deploy infrastructure solutions for energy, logistics, and manufacturing
+* Bring on-chain infrastructure for industry-scale use cases in energy, logistics, and manufacturing
 
 ## **Team Expansion:**
 
