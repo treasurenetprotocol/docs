@@ -1,20 +1,20 @@
-# $TCash – Alternate Currency
+# $TCASH – Alternate Currency
 
-### **What Is $TCash?**
+### **What Is $TCASH?**
 
-$TCash is Treasurenet’s alternate digital currency—designed to support liquidity, lending, and real-world economic activity. It functions like cash within the network and enables users to borrow, transact, and settle value in a stable yet decentralized way.
+$TCASH is Treasurenet’s alternate digital currency—designed to support liquidity, lending, and real-world economic activity. It functions like cash within the network and enables users to borrow, transact, and settle value in a stable yet decentralized way.
 
 ### **Onboarding and Eligibility**
 
 **Step 1: Earn REP**  
- To become eligible for borrowing $TCash, users must earn REP by verifying their real-world output on-chain. After completing two successful REP mints, users become eligible to borrow.
+ To become eligible for borrowing $TCASH, users must earn REP by verifying their real-world output on-chain. After completing two successful REP mints, users become eligible to borrow.
 
 **Step 2: Stake UNIT**  
  Borrowers must stake $UNIT tokens as collateral. Higher REP scores boost the user’s creditworthiness, allowing access to larger TCash borrowing limits under better terms.
 
 **Step 3 (Optional): Acquire TCash via Uniswap**
 
-For users who don’t yet meet REP or staking requirements, $TCash is also available for purchase on Uniswap. This enables faster participation in the ecosystem — though without the credit benefits tied to REP.
+For users who don’t yet meet REP or staking requirements, $TCASH is also available for purchase on Uniswap. This enables faster participation in the ecosystem — though without the credit benefits tied to REP.
 
 ---
 

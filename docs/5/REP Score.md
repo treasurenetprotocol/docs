@@ -35,7 +35,7 @@ The process:
 | :---- | :---- |
 | Minting $UNIT | Determines how much $UNIT a Producer can generate |
 | Bidding Bonus Stake | REP can be burned to qualify for higher validator rewards |
-| Credit Access via $TCash | Higher REP increases borrowing capacity |
+| Credit Access via $TCASH | Higher REP increases borrowing capacity |
 | Governance Participation | REP May be used in future DAO votes or through whitelisting |
 | On-Chain Identity | REP builds a track record of productivity over time |
 
