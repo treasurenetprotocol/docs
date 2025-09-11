@@ -31,7 +31,7 @@ function HomepageHeader() {
 export default function Home() {
     const {siteConfig} = useDocusaurusContext();
     //console.dir(siteConfig);
-    const redirect = siteConfig.baseUrl + 'docs/about/introduction/';
+    const redirect = siteConfig.baseUrl + 'docs/1/Introduction';
     /*return (
       <Layout
         title={`Hello from ${siteConfig.title}`}
