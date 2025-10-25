@@ -1,1 +1,13 @@
-* @GrenstonGeorge @Hoyg @sriplayground
+# CODEOWNERS file for Treasurenet repositories
+#
+# This file defines code ownership and review requirements.
+# When "Require review from Code Owners" is enabled in branch protection,
+# PRs must be approved by at least one code owner before merging.
+#
+# Syntax: <file-pattern> <@username1> <@username2> ...
+#
+# Documentation: https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-code-owners
+
+# Default owners for everything in the repository
+# These users will be requested for review when anyone opens a pull request
+* @andyb0wu @chriszhao1988 @dongchenxie
