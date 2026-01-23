@@ -85,4 +85,4 @@ Updated versions will be published on the official website or documentation, tog
 If you have any questions or concerns regarding this Privacy Policy, you may contact us through:
 - The official Treasurenet GitHub repositories (Issues)
 - Official community channels
-- Official email address (if applicable)
+- Email: contact@treasurenet.org
