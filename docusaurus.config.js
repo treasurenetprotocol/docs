@@ -188,6 +188,15 @@ const config = {
                             },
                         ],
                     },
+                    {
+                        title: 'Legal',
+                        items: [
+                            {
+                                label: 'Privacy Policy',
+                                to: '/privacy-policy',
+                            },
+                        ],
+                    },
                 ],
                 copyright: `Copyright © ${new Date().getFullYear()} Treasurenet Foundation, Inc.`,
             },
