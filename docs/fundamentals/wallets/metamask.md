@@ -26,10 +26,10 @@ The MetaMask browser extension is a wallet for accessing Ethernet-enabled applic
 2. Open Settings > Network > Add Network and fill in the network information below.
 
    - Network Name : Treausurenet Mainnet Alpha
-   - New RPC URL: https://wallet.treasurenet.io
-   - Chain ID：5002
+   - New RPC URL: https://rpc.treasurenet.io
+   - Chain ID：5570
    - Currency Symbol (optional): UNIT
-   - Block Explorer URL (optional)：https://evmexplorer.treasurenet.io/
+   - Block Explorer URL (optional)：https://scan.treasurenet.io/
 
 ![addmainnet](/img/docs/addmainnet5002.png)
 
