@@ -26,10 +26,10 @@ MetaMask 浏览器扩展是一个用于访问支持以太坊的应用程序和�
 2. 打开设置>网络>添加网络，填写下方网络信息
 
    - Network Name : Treausurenet Mainnet Alpha
-   - New RPC URL: https://wallet.treasurenet.io
-   - Chain ID：5002
+   - New RPC URL: https://rpc.treasurenet.io
+   - Chain ID：5570
    - Currency Symbol (optional): UNIT
-   - Block Explorer URL (optional)：https://evmexplorer.treasurenet.io/
+   - Block Explorer URL (optional)：https://scan.treasurenet.io/
 
 ![addmainnet](/img/docs/addmainnet5002.png)
 

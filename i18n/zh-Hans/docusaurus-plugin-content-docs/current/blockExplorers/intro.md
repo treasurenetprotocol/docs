@@ -16,7 +16,7 @@ Treasurenet 提供两种类型的区块浏览器：EVM Block Explorer 和 Cosmos
 
 |                      | 类型   | 链接                                   |
 | -------------------- | ------ | -------------------------------------- |
-| EVM BlockExplorer    | evm    | https://evmexplorer.treasurenet.io/    |
+| EVM BlockExplorer    | evm    | https://scan.treasurenet.io/    |
 | Cosmos BlockExplorer | cosmos | https://cosmosexplorer.treasurenet.io/ |
 
 ### 测试网

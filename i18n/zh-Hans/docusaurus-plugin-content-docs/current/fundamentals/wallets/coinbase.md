@@ -26,10 +26,10 @@ Coinbase 浏览器扩展钱包是一个用于访问支持以太坊的应用程�
 1. 在您的浏览器上打开 Coinbase 钱包扩展程序，如果您尚未登录，您可能需要登录您的 Coinbase 钱包帐户；
 2. 打开设置>网络>添加网络，填写下方网络信息：
    - Network Name : Treausurenet Mainnet Alpha
-   - New RPC URL: https://wallet.treasurenet.io
-   - Chain ID :5002
+   - New RPC URL: https://rpc.treasurenet.io
+   - Chain ID :5570
    - Currency Symbol (optional): UNIT
-   - Block Explorer URL (optional):https://evmexplorer.treasurenet.io/
+   - Block Explorer URL (optional):https://scan.treasurenet.io/
 
 ![addnetwork1](/img/docs/addnetwork1.png)
 
